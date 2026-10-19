@@ -2,12 +2,12 @@
 import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
 import { grammarLessons } from '@/data/grammar'
-import { dailyCount, streak, todayDone, week } from '@/data/study'
+import { dailyCount, level, minutes, streak, todayDone, week } from '@/data/study'
 
-const done = computed(() => Math.min(todayDone.value, dailyCount))
+const done = computed(() => Math.min(todayDone.value, dailyCount.value))
 const radius = 36
 const circumference = 2 * Math.PI * radius
-const dashOffset = computed(() => circumference * (1 - done.value / dailyCount))
+const dashOffset = computed(() => circumference * (1 - done.value / dailyCount.value))
 </script>
 
 <template>
@@ -16,7 +16,7 @@ const dashOffset = computed(() => circumference * (1 - done.value / dailyCount))
       <div>
         <h2 class="greeting">你好</h2>
         <div class="streak">連続 {{ streak }}日</div>
-        <p>今日は単語を{{ dailyCount }}語。5分で終わります。</p>
+        <p>今日は単語を{{ dailyCount }}語。{{ minutes }}分で終わります。</p>
       </div>
       <div class="ring" :aria-label="`今日 ${done} / ${dailyCount}`">
         <svg viewBox="0 0 92 92">
@@ -58,7 +58,7 @@ const dashOffset = computed(() => circumference * (1 - done.value / dailyCount))
     <RouterLink to="/grammar" class="action-quiet">
       <span>
         <strong>文法</strong>
-        <small>HSK 1　{{ grammarLessons.length }}課</small>
+        <small>HSK {{ level }}　{{ grammarLessons.length }}課</small>
       </span>
       <span class="chevron">›</span>
     </RouterLink>

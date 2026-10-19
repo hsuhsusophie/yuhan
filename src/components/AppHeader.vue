@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
+import { level } from '@/data/study'
 
 const route = useRoute()
 const isHome = computed(() => route.name === 'home')
@@ -16,7 +17,7 @@ const title = computed(() => route.meta.title ?? '漢語手帖')
         <span>日本人のための中国語</span>
       </div>
     </div>
-    <span v-if="isHome" class="pill">HSK 1</span>
+    <span v-if="isHome" class="pill">HSK {{ level }}</span>
     <h1 v-else>{{ title }}</h1>
   </header>
 </template>

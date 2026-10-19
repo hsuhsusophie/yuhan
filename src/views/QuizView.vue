@@ -1,22 +1,52 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
-import { RouterLink, useRouter } from 'vue-router'
-import { meaningQuiz } from '@/data/study'
+import { computed, ref, watch } from 'vue'
+import { RouterLink, useRoute, useRouter } from 'vue-router'
+import { buildQuiz, level, reviewWords, words, type QuizItem, type QuizKind } from '@/data/study'
 
-const counts = [10, 20, 50]
+const kinds: { id: QuizKind; label: string }[] = [
+  { id: 'meaning', label: '意味' },
+  { id: 'hanzi', label: '漢字' },
+  { id: 'pinyin', label: 'ピンイン' },
+]
+const kindLabels: Record<QuizKind, string> = { meaning: '意味', hanzi: '漢字', pinyin: 'ピンイン' }
 const router = useRouter()
+const route = useRoute()
+const reviewing = computed(() => route.query.pool === 'review')
+const source = computed(() => (reviewing.value ? reviewWords.value : words))
+const countChoices = computed(() => {
+  const max = source.value.length
+  const preset = [10, 20, 50].filter((value) => value <= max)
+  if (max > 0 && max < 50 && !preset.includes(max)) preset.push(max)
+  return preset.sort((a, b) => a - b)
+})
 const count = ref(10)
+const kind = ref<QuizKind>('meaning')
 const setupOpen = ref(true)
 const fromDone = ref(false)
-const quiz = ref(meaningQuiz(0))
+const quiz = ref<QuizItem[]>([])
 const step = ref(0)
 const picked = ref<number | null>(null)
 const correctCount = ref(0)
 const finished = computed(() => quiz.value.length > 0 && step.value >= quiz.value.length)
 const item = computed(() => quiz.value[step.value])
+const sheetNote = computed(() => {
+  if (reviewing.value && source.value.length === 0) return 'あやふやの単語がありません'
+  if (reviewing.value) return 'あやふやにした語から出題します'
+  return `HSK ${level.value} の単語から出題します`
+})
+
+watch(
+  countChoices,
+  (list) => {
+    const first = list[0]
+    if (first !== undefined && !list.includes(count.value)) count.value = first
+  },
+  { immediate: true },
+)
 
 function start() {
-  quiz.value = meaningQuiz(count.value)
+  if (countChoices.value.length === 0) return
+  quiz.value = buildQuiz(kind.value, count.value, source.value)
   step.value = 0
   picked.value = null
   correctCount.value = 0
@@ -61,12 +91,25 @@ function choiceClass(option: number) {
 <template>
   <div v-if="setupOpen" class="quiz-setup">
     <section class="quiz-sheet">
-      <h2>単語テスト</h2>
-      <p class="sheet-note">HSK 1 の単語から出題します</p>
+      <h2>{{ reviewing ? '復習' : '単語テスト' }}</h2>
+      <p class="sheet-note">{{ sheetNote }}</p>
+      <p class="sheet-label">出題</p>
+      <div class="count-row">
+        <button
+          v-for="choice in kinds"
+          :key="choice.id"
+          class="count"
+          :class="{ on: kind === choice.id }"
+          type="button"
+          @click="kind = choice.id"
+        >
+          {{ choice.label }}
+        </button>
+      </div>
       <p class="sheet-label">問題数</p>
       <div class="count-row">
         <button
-          v-for="value in counts"
+          v-for="value in countChoices"
           :key="value"
           class="count"
           :class="{ on: count === value }"
@@ -76,7 +119,7 @@ function choiceClass(option: number) {
           {{ value }}
         </button>
       </div>
-      <button class="btn btn-solid" type="button" @click="start">開始</button>
+      <button class="btn btn-solid" type="button" :disabled="countChoices.length === 0" @click="start">開始</button>
       <button class="btn btn-ghost" type="button" @click="cancel">キャンセル</button>
     </section>
   </div>
@@ -90,12 +133,12 @@ function choiceClass(option: number) {
 
   <div v-else-if="item" class="quiz-play">
     <div class="quiz-head">
-      <span>意味</span>
+      <span>{{ kindLabels[kind] }}</span>
       <span>{{ step + 1 }} / {{ quiz.length }}</span>
     </div>
     <article class="study-card compact">
-      <h2 class="hanzi compact">{{ item.hanzi }}</h2>
-      <p class="pinyin">{{ item.pinyin }}</p>
+      <h2 :class="kind === 'hanzi' ? 'prompt-heading' : 'hanzi compact'">{{ item.heading }}</h2>
+      <p v-if="item.showPinyin === 'always' || picked !== null" class="pinyin">{{ item.pinyin }}</p>
     </article>
     <p class="prompt">{{ item.prompt }}</p>
     <div class="options">
@@ -103,7 +146,7 @@ function choiceClass(option: number) {
         v-for="(option, i) in item.options"
         :key="`${item.hanzi}-${i}`"
         class="option"
-        :class="choiceClass(i)"
+        :class="[choiceClass(i), kind === 'hanzi' ? 'glyph' : '']"
         type="button"
         @click="pick(i)"
       >
@@ -213,6 +256,19 @@ function choiceClass(option: number) {
 
 .quiz-play .hanzi {
   font-size: clamp(36px, 7vh, 52px);
+}
+
+.prompt-heading {
+  margin: 0;
+  text-align: center;
+  font-size: clamp(22px, 4.2vh, 32px);
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.option.glyph {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 20px;
 }
 
 .quiz-play .pinyin {

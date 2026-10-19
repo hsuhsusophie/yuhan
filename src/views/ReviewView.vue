@@ -1,6 +1,8 @@
 <script setup lang="ts">
-import { RouterLink } from 'vue-router'
+import { useRouter } from 'vue-router'
 import { reviewWords } from '@/data/study'
+
+const router = useRouter()
 </script>
 
 <template>
@@ -19,6 +21,13 @@ import { reviewWords } from '@/data/study'
     </article>
   </div>
   <div class="primary-row one">
-    <RouterLink to="/quiz" class="btn btn-solid">復習を始める</RouterLink>
+    <button
+      class="btn btn-solid"
+      type="button"
+      :disabled="reviewWords.length === 0"
+      @click="router.push({ path: '/quiz', query: { pool: 'review' } })"
+    >
+      復習を始める
+    </button>
   </div>
 </template>

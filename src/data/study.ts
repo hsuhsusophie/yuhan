@@ -10,7 +10,33 @@ export interface Word {
 
 export const words = catalog.words as Word[]
 export const attribution = catalog.attribution
-export const dailyCount = 10
+
+const settingsKey = 'kango-settings'
+export const minuteChoices = [5, 10, 20] as const
+export const levelChoices = [1] as const
+
+function loadSettings(): { minutes: number; level: number } {
+  try {
+    if (typeof localStorage === 'undefined') return { minutes: 5, level: 1 }
+    const raw = localStorage.getItem(settingsKey)
+    const parsed: unknown = raw ? JSON.parse(raw) : {}
+    const saved = parsed && typeof parsed === 'object' ? (parsed as { minutes?: number; level?: number }) : {}
+    const minutes = minuteChoices.find((value) => value === saved.minutes) ?? 5
+    const level = levelChoices.find((value) => value === saved.level) ?? 1
+    return { minutes, level }
+  } catch {
+    return { minutes: 5, level: 1 }
+  }
+}
+
+const savedSettings = loadSettings()
+export const minutes = ref(savedSettings.minutes)
+export const level = ref(savedSettings.level)
+export const dailyCount = computed(() => minutes.value * 2)
+
+watch([minutes, level], () => {
+  localStorage.setItem(settingsKey, JSON.stringify({ minutes: minutes.value, level: level.value }))
+})
 
 interface Mark {
   hanzi: string
@@ -69,7 +95,8 @@ export const todayDone = computed(() => {
 
 export const dailyWords = computed(() => {
   const pending = words.filter((word) => latest(word.hanzi)?.result !== 'known')
-  return (pending.length >= dailyCount ? pending : words).slice(0, dailyCount)
+  const count = dailyCount.value
+  return (pending.length >= count ? pending : words).slice(0, count)
 })
 
 export const reviewWords = computed(() => words.filter((word) => latest(word.hanzi)?.result === 'fuzzy'))
@@ -110,20 +137,50 @@ function shuffle<T>(items: T[]): T[] {
   return copy
 }
 
-export function meaningQuiz(count = 10) {
-  if (count <= 0) return []
-  const picked = shuffle(words).slice(0, Math.min(count, words.length))
+export type QuizKind = 'meaning' | 'hanzi' | 'pinyin'
+
+export interface QuizItem {
+  hanzi: string
+  pinyin: string
+  heading: string
+  prompt: string
+  showPinyin: 'always' | 'after'
+  options: string[]
+  answer: number
+}
+
+const quizCopy: Record<QuizKind, { prompt: string; showPinyin: 'always' | 'after' }> = {
+  meaning: { prompt: 'この漢字の意味は？', showPinyin: 'always' },
+  hanzi: { prompt: 'この意味の漢字は？', showPinyin: 'after' },
+  pinyin: { prompt: 'この漢字のピンインは？', showPinyin: 'after' },
+}
+
+function answerText(word: Word, kind: QuizKind): string {
+  if (kind === 'hanzi') return word.hanzi
+  if (kind === 'pinyin') return word.pinyin
+  return word.ja
+}
+
+export function buildQuiz(kind: QuizKind, count: number, source: Word[] = words): QuizItem[] {
+  if (count <= 0 || source.length === 0) return []
+  const picked = shuffle(source).slice(0, Math.min(count, source.length))
+  const copy = quizCopy[kind]
   return picked.map((word) => {
-    const distractors = shuffle(words.filter((item) => item.hanzi !== word.hanzi && item.ja !== word.ja))
+    const correct = answerText(word, kind)
+    const distractors = shuffle(
+      words.filter((item) => item.hanzi !== word.hanzi && answerText(item, kind) !== correct),
+    )
       .slice(0, 3)
-      .map((item) => item.ja)
-    const options = shuffle([word.ja, ...distractors])
+      .map((item) => answerText(item, kind))
+    const options = shuffle([correct, ...distractors])
     return {
       hanzi: word.hanzi,
       pinyin: word.pinyin,
-      prompt: 'この漢字の意味は？',
+      heading: kind === 'hanzi' ? word.ja : word.hanzi,
+      prompt: copy.prompt,
+      showPinyin: copy.showPinyin,
       options,
-      answer: options.indexOf(word.ja),
+      answer: options.indexOf(correct),
     }
   })
 }
