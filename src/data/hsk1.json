@@ -1,0 +1,2411 @@
+{
+  "attribution": "語彙・ピンインは HearMandarin の HSK 3.0 詞表（CC BY 4.0）。https://hearmandarin.com",
+  "words": [
+    {
+      "hanzi": "爱",
+      "pinyin": "ài",
+      "tones": [
+        4
+      ],
+      "ja": "愛する"
+    },
+    {
+      "hanzi": "八",
+      "pinyin": "bā",
+      "tones": [
+        1
+      ],
+      "ja": "八"
+    },
+    {
+      "hanzi": "爸爸",
+      "pinyin": "bàba",
+      "tones": [
+        4
+      ],
+      "ja": "お父さん"
+    },
+    {
+      "hanzi": "吧",
+      "pinyin": "ba",
+      "tones": [
+        0
+      ],
+      "ja": "〜しよう、〜だろう"
+    },
+    {
+      "hanzi": "白天",
+      "pinyin": "báitiān",
+      "tones": [
+        2
+      ],
+      "ja": "昼間"
+    },
+    {
+      "hanzi": "百",
+      "pinyin": "bǎi",
+      "tones": [
+        3
+      ],
+      "ja": "百"
+    },
+    {
+      "hanzi": "半",
+      "pinyin": "bàn",
+      "tones": [
+        4
+      ],
+      "ja": "半分"
+    },
+    {
+      "hanzi": "包子",
+      "pinyin": "bāozi",
+      "tones": [
+        1
+      ],
+      "ja": "肉まん"
+    },
+    {
+      "hanzi": "杯子",
+      "pinyin": "bēizi",
+      "tones": [
+        1
+      ],
+      "ja": "コップ"
+    },
+    {
+      "hanzi": "本",
+      "pinyin": "běn",
+      "tones": [
+        3
+      ],
+      "ja": "本を数える助数詞"
+    },
+    {
+      "hanzi": "边",
+      "pinyin": "biān",
+      "tones": [
+        1
+      ],
+      "ja": "そば、端"
+    },
+    {
+      "hanzi": "病",
+      "pinyin": "bìng",
+      "tones": [
+        4
+      ],
+      "ja": "病気"
+    },
+    {
+      "hanzi": "不",
+      "pinyin": "bù",
+      "tones": [
+        4
+      ],
+      "ja": "〜ない"
+    },
+    {
+      "hanzi": "不客气",
+      "pinyin": "bú kèqi",
+      "tones": [
+        2,
+        4
+      ],
+      "ja": "どういたしまして"
+    },
+    {
+      "hanzi": "不要",
+      "pinyin": "búyào",
+      "tones": [
+        2
+      ],
+      "ja": "〜してはいけない"
+    },
+    {
+      "hanzi": "菜",
+      "pinyin": "cài",
+      "tones": [
+        4
+      ],
+      "ja": "野菜、料理"
+    },
+    {
+      "hanzi": "茶",
+      "pinyin": "chá",
+      "tones": [
+        2
+      ],
+      "ja": "お茶"
+    },
+    {
+      "hanzi": "唱",
+      "pinyin": "chàng",
+      "tones": [
+        4
+      ],
+      "ja": "歌う"
+    },
+    {
+      "hanzi": "超市",
+      "pinyin": "chāoshì",
+      "tones": [
+        1
+      ],
+      "ja": "スーパー"
+    },
+    {
+      "hanzi": "车",
+      "pinyin": "chē",
+      "tones": [
+        1
+      ],
+      "ja": "車"
+    },
+    {
+      "hanzi": "吃",
+      "pinyin": "chī",
+      "tones": [
+        1
+      ],
+      "ja": "食べる"
+    },
+    {
+      "hanzi": "计程车",
+      "pinyin": "jìchéngchē",
+      "tones": [
+        1
+      ],
+      "ja": "タクシー"
+    },
+    {
+      "hanzi": "穿",
+      "pinyin": "chuān",
+      "tones": [
+        1
+      ],
+      "ja": "着る"
+    },
+    {
+      "hanzi": "打电话",
+      "pinyin": "dǎ diànhuà",
+      "tones": [
+        3,
+        4
+      ],
+      "ja": "電話をかける"
+    },
+    {
+      "hanzi": "大",
+      "pinyin": "dà",
+      "tones": [
+        4
+      ],
+      "ja": "大きい"
+    },
+    {
+      "hanzi": "大家",
+      "pinyin": "dàjiā",
+      "tones": [
+        4
+      ],
+      "ja": "みんな"
+    },
+    {
+      "hanzi": "大学",
+      "pinyin": "dàxué",
+      "tones": [
+        4
+      ],
+      "ja": "大学"
+    },
+    {
+      "hanzi": "大学生",
+      "pinyin": "dàxuéshēng",
+      "tones": [
+        4
+      ],
+      "ja": "大学生"
+    },
+    {
+      "hanzi": "到",
+      "pinyin": "dào",
+      "tones": [
+        4
+      ],
+      "ja": "着く"
+    },
+    {
+      "hanzi": "的",
+      "pinyin": "de",
+      "tones": [
+        0
+      ],
+      "ja": "〜の"
+    },
+    {
+      "hanzi": "第",
+      "pinyin": "dì",
+      "tones": [
+        4
+      ],
+      "ja": "第〜"
+    },
+    {
+      "hanzi": "弟弟",
+      "pinyin": "dìdi",
+      "tones": [
+        4
+      ],
+      "ja": "弟"
+    },
+    {
+      "hanzi": "点",
+      "pinyin": "diǎn",
+      "tones": [
+        3
+      ],
+      "ja": "時、少し"
+    },
+    {
+      "hanzi": "店",
+      "pinyin": "diàn",
+      "tones": [
+        4
+      ],
+      "ja": "店"
+    },
+    {
+      "hanzi": "电话",
+      "pinyin": "diànhuà",
+      "tones": [
+        4
+      ],
+      "ja": "電話"
+    },
+    {
+      "hanzi": "电脑",
+      "pinyin": "diànnǎo",
+      "tones": [
+        4
+      ],
+      "ja": "パソコン"
+    },
+    {
+      "hanzi": "电视",
+      "pinyin": "diànshì",
+      "tones": [
+        4
+      ],
+      "ja": "テレビ"
+    },
+    {
+      "hanzi": "电影",
+      "pinyin": "diànyǐng",
+      "tones": [
+        4
+      ],
+      "ja": "映画"
+    },
+    {
+      "hanzi": "电影院",
+      "pinyin": "diànyǐngyuàn",
+      "tones": [
+        4
+      ],
+      "ja": "映画館"
+    },
+    {
+      "hanzi": "东西",
+      "pinyin": "dōngxi",
+      "tones": [
+        1
+      ],
+      "ja": "物"
+    },
+    {
+      "hanzi": "都",
+      "pinyin": "dōu",
+      "tones": [
+        1
+      ],
+      "ja": "みな"
+    },
+    {
+      "hanzi": "读",
+      "pinyin": "dú",
+      "tones": [
+        2
+      ],
+      "ja": "読む"
+    },
+    {
+      "hanzi": "读书",
+      "pinyin": "dúshū",
+      "tones": [
+        2
+      ],
+      "ja": "本を読む、勉強する"
+    },
+    {
+      "hanzi": "对",
+      "pinyin": "duì",
+      "tones": [
+        4
+      ],
+      "ja": "正しい"
+    },
+    {
+      "hanzi": "对不起",
+      "pinyin": "duìbuqǐ",
+      "tones": [
+        4
+      ],
+      "ja": "すみません"
+    },
+    {
+      "hanzi": "多",
+      "pinyin": "duō",
+      "tones": [
+        1
+      ],
+      "ja": "多い"
+    },
+    {
+      "hanzi": "多少",
+      "pinyin": "duōshao",
+      "tones": [
+        1
+      ],
+      "ja": "いくら、いくつ"
+    },
+    {
+      "hanzi": "儿子",
+      "pinyin": "érzi",
+      "tones": [
+        2
+      ],
+      "ja": "息子"
+    },
+    {
+      "hanzi": "二",
+      "pinyin": "èr",
+      "tones": [
+        4
+      ],
+      "ja": "二"
+    },
+    {
+      "hanzi": "饭",
+      "pinyin": "fàn",
+      "tones": [
+        4
+      ],
+      "ja": "ご飯"
+    },
+    {
+      "hanzi": "饭店",
+      "pinyin": "fàndiàn",
+      "tones": [
+        4
+      ],
+      "ja": "レストラン"
+    },
+    {
+      "hanzi": "房间",
+      "pinyin": "fángjiān",
+      "tones": [
+        2
+      ],
+      "ja": "部屋"
+    },
+    {
+      "hanzi": "非常",
+      "pinyin": "fēicháng",
+      "tones": [
+        1
+      ],
+      "ja": "とても"
+    },
+    {
+      "hanzi": "飞机",
+      "pinyin": "fēijī",
+      "tones": [
+        1
+      ],
+      "ja": "飛行機"
+    },
+    {
+      "hanzi": "分",
+      "pinyin": "fēn",
+      "tones": [
+        1
+      ],
+      "ja": "分"
+    },
+    {
+      "hanzi": "分钟",
+      "pinyin": "fēnzhōng",
+      "tones": [
+        1
+      ],
+      "ja": "分"
+    },
+    {
+      "hanzi": "高兴",
+      "pinyin": "gāoxìng",
+      "tones": [
+        1
+      ],
+      "ja": "うれしい"
+    },
+    {
+      "hanzi": "歌",
+      "pinyin": "gē",
+      "tones": [
+        1
+      ],
+      "ja": "歌"
+    },
+    {
+      "hanzi": "哥哥",
+      "pinyin": "gēge",
+      "tones": [
+        1
+      ],
+      "ja": "兄"
+    },
+    {
+      "hanzi": "个",
+      "pinyin": "gè",
+      "tones": [
+        4
+      ],
+      "ja": "個"
+    },
+    {
+      "hanzi": "给",
+      "pinyin": "gěi",
+      "tones": [
+        3
+      ],
+      "ja": "あげる"
+    },
+    {
+      "hanzi": "公司",
+      "pinyin": "gōngsī",
+      "tones": [
+        1
+      ],
+      "ja": "会社"
+    },
+    {
+      "hanzi": "工作",
+      "pinyin": "gōngzuò",
+      "tones": [
+        1
+      ],
+      "ja": "仕事"
+    },
+    {
+      "hanzi": "狗",
+      "pinyin": "gǒu",
+      "tones": [
+        3
+      ],
+      "ja": "犬"
+    },
+    {
+      "hanzi": "贵",
+      "pinyin": "guì",
+      "tones": [
+        4
+      ],
+      "ja": "高い"
+    },
+    {
+      "hanzi": "国",
+      "pinyin": "guó",
+      "tones": [
+        2
+      ],
+      "ja": "国"
+    },
+    {
+      "hanzi": "还",
+      "pinyin": "hái",
+      "tones": [
+        2
+      ],
+      "ja": "まだ、も"
+    },
+    {
+      "hanzi": "孩子",
+      "pinyin": "háizi",
+      "tones": [
+        2
+      ],
+      "ja": "子ども"
+    },
+    {
+      "hanzi": "汉语",
+      "pinyin": "Hànyǔ",
+      "tones": [
+        4
+      ],
+      "ja": "中国語"
+    },
+    {
+      "hanzi": "汉字",
+      "pinyin": "Hànzì",
+      "tones": [
+        4
+      ],
+      "ja": "漢字"
+    },
+    {
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "tones": [
+        3
+      ],
+      "ja": "いい"
+    },
+    {
+      "hanzi": "好吃",
+      "pinyin": "hǎochī",
+      "tones": [
+        3
+      ],
+      "ja": "おいしい"
+    },
+    {
+      "hanzi": "好看",
+      "pinyin": "hǎokàn",
+      "tones": [
+        3
+      ],
+      "ja": "見た目がいい"
+    },
+    {
+      "hanzi": "好听",
+      "pinyin": "hǎotīng",
+      "tones": [
+        3
+      ],
+      "ja": "聞いて気持ちがいい"
+    },
+    {
+      "hanzi": "好玩",
+      "pinyin": "hǎowán",
+      "tones": [
+        3
+      ],
+      "ja": "おもしろい"
+    },
+    {
+      "hanzi": "号",
+      "pinyin": "hào",
+      "tones": [
+        4
+      ],
+      "ja": "番号"
+    },
+    {
+      "hanzi": "喝",
+      "pinyin": "hē",
+      "tones": [
+        1
+      ],
+      "ja": "飲む"
+    },
+    {
+      "hanzi": "和",
+      "pinyin": "hé",
+      "tones": [
+        2
+      ],
+      "ja": "と"
+    },
+    {
+      "hanzi": "很",
+      "pinyin": "hěn",
+      "tones": [
+        3
+      ],
+      "ja": "とても"
+    },
+    {
+      "hanzi": "后",
+      "pinyin": "hòu",
+      "tones": [
+        4
+      ],
+      "ja": "後ろ、あと"
+    },
+    {
+      "hanzi": "回",
+      "pinyin": "huí",
+      "tones": [
+        2
+      ],
+      "ja": "戻る、回"
+    },
+    {
+      "hanzi": "会",
+      "pinyin": "huì",
+      "tones": [
+        4
+      ],
+      "ja": "できる"
+    },
+    {
+      "hanzi": "火车",
+      "pinyin": "huǒchē",
+      "tones": [
+        3
+      ],
+      "ja": "列車"
+    },
+    {
+      "hanzi": "鸡蛋",
+      "pinyin": "jīdàn",
+      "tones": [
+        1
+      ],
+      "ja": "卵"
+    },
+    {
+      "hanzi": "几",
+      "pinyin": "jǐ",
+      "tones": [
+        3
+      ],
+      "ja": "いくつ"
+    },
+    {
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "tones": [
+        1
+      ],
+      "ja": "家"
+    },
+    {
+      "hanzi": "家人",
+      "pinyin": "jiārén",
+      "tones": [
+        1
+      ],
+      "ja": "家族"
+    },
+    {
+      "hanzi": "见",
+      "pinyin": "jiàn",
+      "tones": [
+        4
+      ],
+      "ja": "会う"
+    },
+    {
+      "hanzi": "件",
+      "pinyin": "jiàn",
+      "tones": [
+        4
+      ],
+      "ja": "件"
+    },
+    {
+      "hanzi": "饺子",
+      "pinyin": "jiǎozi",
+      "tones": [
+        3
+      ],
+      "ja": "ギョーザ"
+    },
+    {
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "tones": [
+        4
+      ],
+      "ja": "呼ぶ、〜という"
+    },
+    {
+      "hanzi": "姐姐",
+      "pinyin": "jiějie",
+      "tones": [
+        3
+      ],
+      "ja": "姉"
+    },
+    {
+      "hanzi": "今年",
+      "pinyin": "jīnnián",
+      "tones": [
+        1
+      ],
+      "ja": "今年"
+    },
+    {
+      "hanzi": "今天",
+      "pinyin": "jīntiān",
+      "tones": [
+        1
+      ],
+      "ja": "今日"
+    },
+    {
+      "hanzi": "九",
+      "pinyin": "jiǔ",
+      "tones": [
+        3
+      ],
+      "ja": "九"
+    },
+    {
+      "hanzi": "觉得",
+      "pinyin": "juéde",
+      "tones": [
+        2
+      ],
+      "ja": "〜だと思う"
+    },
+    {
+      "hanzi": "开",
+      "pinyin": "kāi",
+      "tones": [
+        1
+      ],
+      "ja": "開ける"
+    },
+    {
+      "hanzi": "开车",
+      "pinyin": "kāichē",
+      "tones": [
+        1
+      ],
+      "ja": "車を運転する"
+    },
+    {
+      "hanzi": "看",
+      "pinyin": "kàn",
+      "tones": [
+        4
+      ],
+      "ja": "見る"
+    },
+    {
+      "hanzi": "看病",
+      "pinyin": "kànbìng",
+      "tones": [
+        4
+      ],
+      "ja": "医者に診てもらう"
+    },
+    {
+      "hanzi": "看见",
+      "pinyin": "kànjiàn",
+      "tones": [
+        4
+      ],
+      "ja": "見える"
+    },
+    {
+      "hanzi": "可以",
+      "pinyin": "kěyǐ",
+      "tones": [
+        3
+      ],
+      "ja": "〜してよい"
+    },
+    {
+      "hanzi": "课",
+      "pinyin": "kè",
+      "tones": [
+        4
+      ],
+      "ja": "授業"
+    },
+    {
+      "hanzi": "口",
+      "pinyin": "kǒu",
+      "tones": [
+        3
+      ],
+      "ja": "口"
+    },
+    {
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "tones": [
+        4
+      ],
+      "ja": "元、切れ"
+    },
+    {
+      "hanzi": "来",
+      "pinyin": "lái",
+      "tones": [
+        2
+      ],
+      "ja": "来る"
+    },
+    {
+      "hanzi": "老师",
+      "pinyin": "lǎoshī",
+      "tones": [
+        3
+      ],
+      "ja": "先生"
+    },
+    {
+      "hanzi": "了",
+      "pinyin": "le",
+      "tones": [
+        0
+      ],
+      "ja": "完了の助詞"
+    },
+    {
+      "hanzi": "冷",
+      "pinyin": "lěng",
+      "tones": [
+        3
+      ],
+      "ja": "寒い"
+    },
+    {
+      "hanzi": "里",
+      "pinyin": "lǐ",
+      "tones": [
+        3
+      ],
+      "ja": "中"
+    },
+    {
+      "hanzi": "两",
+      "pinyin": "liǎng",
+      "tones": [
+        3
+      ],
+      "ja": "二つ"
+    },
+    {
+      "hanzi": "零",
+      "pinyin": "líng",
+      "tones": [
+        2
+      ],
+      "ja": "ゼロ"
+    },
+    {
+      "hanzi": "六",
+      "pinyin": "liù",
+      "tones": [
+        4
+      ],
+      "ja": "六"
+    },
+    {
+      "hanzi": "妈妈",
+      "pinyin": "māma",
+      "tones": [
+        1
+      ],
+      "ja": "お母さん"
+    },
+    {
+      "hanzi": "吗",
+      "pinyin": "ma",
+      "tones": [
+        0
+      ],
+      "ja": "〜ですか"
+    },
+    {
+      "hanzi": "买",
+      "pinyin": "mǎi",
+      "tones": [
+        3
+      ],
+      "ja": "買う"
+    },
+    {
+      "hanzi": "卖",
+      "pinyin": "mài",
+      "tones": [
+        4
+      ],
+      "ja": "売る"
+    },
+    {
+      "hanzi": "忙",
+      "pinyin": "máng",
+      "tones": [
+        2
+      ],
+      "ja": "忙しい"
+    },
+    {
+      "hanzi": "猫",
+      "pinyin": "māo",
+      "tones": [
+        1
+      ],
+      "ja": "猫"
+    },
+    {
+      "hanzi": "没关系",
+      "pinyin": "méi guānxi",
+      "tones": [
+        2,
+        1
+      ],
+      "ja": "大丈夫"
+    },
+    {
+      "hanzi": "没事",
+      "pinyin": "méishì",
+      "tones": [
+        2
+      ],
+      "ja": "何でもない"
+    },
+    {
+      "hanzi": "没有",
+      "pinyin": "méiyǒu",
+      "tones": [
+        2
+      ],
+      "ja": "ない"
+    },
+    {
+      "hanzi": "妹妹",
+      "pinyin": "mèimei",
+      "tones": [
+        4
+      ],
+      "ja": "妹"
+    },
+    {
+      "hanzi": "们",
+      "pinyin": "men",
+      "tones": [
+        0
+      ],
+      "ja": "〜たち"
+    },
+    {
+      "hanzi": "米饭",
+      "pinyin": "mǐfàn",
+      "tones": [
+        3
+      ],
+      "ja": "ご飯"
+    },
+    {
+      "hanzi": "面包",
+      "pinyin": "miànbāo",
+      "tones": [
+        4
+      ],
+      "ja": "パン"
+    },
+    {
+      "hanzi": "面条",
+      "pinyin": "miàntiáo",
+      "tones": [
+        4
+      ],
+      "ja": "麺"
+    },
+    {
+      "hanzi": "明年",
+      "pinyin": "míngnián",
+      "tones": [
+        2
+      ],
+      "ja": "来年"
+    },
+    {
+      "hanzi": "明天",
+      "pinyin": "míngtiān",
+      "tones": [
+        2
+      ],
+      "ja": "明日"
+    },
+    {
+      "hanzi": "名字",
+      "pinyin": "míngzi",
+      "tones": [
+        2
+      ],
+      "ja": "名前"
+    },
+    {
+      "hanzi": "哪",
+      "pinyin": "nǎ",
+      "tones": [
+        3
+      ],
+      "ja": "どの"
+    },
+    {
+      "hanzi": "哪个",
+      "pinyin": "nǎge",
+      "tones": [
+        3
+      ],
+      "ja": "どれ"
+    },
+    {
+      "hanzi": "哪里",
+      "pinyin": "nǎlǐ",
+      "tones": [
+        3
+      ],
+      "ja": "どこ"
+    },
+    {
+      "hanzi": "哪里",
+      "pinyin": "nǎ",
+      "tones": [
+        3
+      ],
+      "ja": "どこ"
+    },
+    {
+      "hanzi": "哪些",
+      "pinyin": "nǎxiē",
+      "tones": [
+        3
+      ],
+      "ja": "どれら"
+    },
+    {
+      "hanzi": "那",
+      "pinyin": "nà",
+      "tones": [
+        4
+      ],
+      "ja": "あの"
+    },
+    {
+      "hanzi": "那边",
+      "pinyin": "nàbiān",
+      "tones": [
+        4
+      ],
+      "ja": "あちら"
+    },
+    {
+      "hanzi": "那个",
+      "pinyin": "nàge",
+      "tones": [
+        4
+      ],
+      "ja": "あれ"
+    },
+    {
+      "hanzi": "那里",
+      "pinyin": "nàlǐ",
+      "tones": [
+        4
+      ],
+      "ja": "あそこ"
+    },
+    {
+      "hanzi": "那里",
+      "pinyin": "nàlǐ",
+      "tones": [
+        4
+      ],
+      "ja": "あそこ"
+    },
+    {
+      "hanzi": "那些",
+      "pinyin": "nàxiē",
+      "tones": [
+        4
+      ],
+      "ja": "あれら"
+    },
+    {
+      "hanzi": "男",
+      "pinyin": "nán",
+      "tones": [
+        2
+      ],
+      "ja": "男"
+    },
+    {
+      "hanzi": "男朋友",
+      "pinyin": "nánpéngyou",
+      "tones": [
+        2
+      ],
+      "ja": "彼氏"
+    },
+    {
+      "hanzi": "呢",
+      "pinyin": "ne",
+      "tones": [
+        0
+      ],
+      "ja": "〜は？"
+    },
+    {
+      "hanzi": "能",
+      "pinyin": "néng",
+      "tones": [
+        2
+      ],
+      "ja": "できる"
+    },
+    {
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "tones": [
+        3
+      ],
+      "ja": "あなた"
+    },
+    {
+      "hanzi": "你好",
+      "pinyin": "nǐ hǎo",
+      "tones": [
+        3,
+        3
+      ],
+      "ja": "こんにちは"
+    },
+    {
+      "hanzi": "你们",
+      "pinyin": "nǐmen",
+      "tones": [
+        3
+      ],
+      "ja": "あなたたち"
+    },
+    {
+      "hanzi": "年",
+      "pinyin": "nián",
+      "tones": [
+        2
+      ],
+      "ja": "年"
+    },
+    {
+      "hanzi": "您",
+      "pinyin": "nín",
+      "tones": [
+        2
+      ],
+      "ja": "あなた（丁寧）"
+    },
+    {
+      "hanzi": "牛奶",
+      "pinyin": "niúnǎi",
+      "tones": [
+        2
+      ],
+      "ja": "牛乳"
+    },
+    {
+      "hanzi": "女",
+      "pinyin": "nǚ",
+      "tones": [
+        3
+      ],
+      "ja": "女"
+    },
+    {
+      "hanzi": "女儿",
+      "pinyin": "nǚ’ér",
+      "tones": [
+        3
+      ],
+      "ja": "娘"
+    },
+    {
+      "hanzi": "女朋友",
+      "pinyin": "nǚpéngyou",
+      "tones": [
+        3
+      ],
+      "ja": "彼女"
+    },
+    {
+      "hanzi": "女士",
+      "pinyin": "nǚshì",
+      "tones": [
+        3
+      ],
+      "ja": "女性の方"
+    },
+    {
+      "hanzi": "朋友",
+      "pinyin": "péngyou",
+      "tones": [
+        2
+      ],
+      "ja": "友達"
+    },
+    {
+      "hanzi": "便宜",
+      "pinyin": "piányi",
+      "tones": [
+        2
+      ],
+      "ja": "安い"
+    },
+    {
+      "hanzi": "漂亮",
+      "pinyin": "piàoliang",
+      "tones": [
+        4
+      ],
+      "ja": "きれい"
+    },
+    {
+      "hanzi": "苹果",
+      "pinyin": "píngguǒ",
+      "tones": [
+        2
+      ],
+      "ja": "りんご"
+    },
+    {
+      "hanzi": "七",
+      "pinyin": "qī",
+      "tones": [
+        1
+      ],
+      "ja": "七"
+    },
+    {
+      "hanzi": "起床",
+      "pinyin": "qǐchuáng",
+      "tones": [
+        3
+      ],
+      "ja": "起きる"
+    },
+    {
+      "hanzi": "千",
+      "pinyin": "qiān",
+      "tones": [
+        1
+      ],
+      "ja": "千"
+    },
+    {
+      "hanzi": "前",
+      "pinyin": "qián",
+      "tones": [
+        2
+      ],
+      "ja": "前"
+    },
+    {
+      "hanzi": "钱",
+      "pinyin": "qián",
+      "tones": [
+        2
+      ],
+      "ja": "お金"
+    },
+    {
+      "hanzi": "请",
+      "pinyin": "qǐng",
+      "tones": [
+        3
+      ],
+      "ja": "どうぞ"
+    },
+    {
+      "hanzi": "请问",
+      "pinyin": "qǐngwèn",
+      "tones": [
+        3
+      ],
+      "ja": "伺いますが"
+    },
+    {
+      "hanzi": "去",
+      "pinyin": "qù",
+      "tones": [
+        4
+      ],
+      "ja": "行く"
+    },
+    {
+      "hanzi": "去年",
+      "pinyin": "qùnián",
+      "tones": [
+        4
+      ],
+      "ja": "去年"
+    },
+    {
+      "hanzi": "热",
+      "pinyin": "rè",
+      "tones": [
+        4
+      ],
+      "ja": "暑い"
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "rén",
+      "tones": [
+        2
+      ],
+      "ja": "人"
+    },
+    {
+      "hanzi": "认识",
+      "pinyin": "rènshi",
+      "tones": [
+        4
+      ],
+      "ja": "知っている"
+    },
+    {
+      "hanzi": "日",
+      "pinyin": "rì",
+      "tones": [
+        4
+      ],
+      "ja": "日"
+    },
+    {
+      "hanzi": "三",
+      "pinyin": "sān",
+      "tones": [
+        1
+      ],
+      "ja": "三"
+    },
+    {
+      "hanzi": "商店",
+      "pinyin": "shāngdiàn",
+      "tones": [
+        1
+      ],
+      "ja": "店"
+    },
+    {
+      "hanzi": "上",
+      "pinyin": "shàng",
+      "tones": [
+        4
+      ],
+      "ja": "上"
+    },
+    {
+      "hanzi": "上班",
+      "pinyin": "shàngbān",
+      "tones": [
+        4
+      ],
+      "ja": "出勤する"
+    },
+    {
+      "hanzi": "上课",
+      "pinyin": "shàngkè",
+      "tones": [
+        4
+      ],
+      "ja": "授業に出る"
+    },
+    {
+      "hanzi": "上午",
+      "pinyin": "shàngwǔ",
+      "tones": [
+        4
+      ],
+      "ja": "午前"
+    },
+    {
+      "hanzi": "上学",
+      "pinyin": "shàngxué",
+      "tones": [
+        4
+      ],
+      "ja": "登校する"
+    },
+    {
+      "hanzi": "少",
+      "pinyin": "shǎo",
+      "tones": [
+        3
+      ],
+      "ja": "少ない"
+    },
+    {
+      "hanzi": "谁",
+      "pinyin": "shéi",
+      "tones": [
+        2
+      ],
+      "ja": "だれ"
+    },
+    {
+      "hanzi": "什么",
+      "pinyin": "shénme",
+      "tones": [
+        2
+      ],
+      "ja": "何"
+    },
+    {
+      "hanzi": "生病",
+      "pinyin": "shēngbìng",
+      "tones": [
+        1
+      ],
+      "ja": "病気になる"
+    },
+    {
+      "hanzi": "十",
+      "pinyin": "shí",
+      "tones": [
+        2
+      ],
+      "ja": "十"
+    },
+    {
+      "hanzi": "时候",
+      "pinyin": "shíhou",
+      "tones": [
+        2
+      ],
+      "ja": "とき"
+    },
+    {
+      "hanzi": "时间",
+      "pinyin": "shíjiān",
+      "tones": [
+        2
+      ],
+      "ja": "時間"
+    },
+    {
+      "hanzi": "事",
+      "pinyin": "shì",
+      "tones": [
+        4
+      ],
+      "ja": "こと"
+    },
+    {
+      "hanzi": "是",
+      "pinyin": "shì",
+      "tones": [
+        4
+      ],
+      "ja": "〜である"
+    },
+    {
+      "hanzi": "手机",
+      "pinyin": "shǒujī",
+      "tones": [
+        3
+      ],
+      "ja": "携帯電話"
+    },
+    {
+      "hanzi": "书",
+      "pinyin": "shū",
+      "tones": [
+        1
+      ],
+      "ja": "本"
+    },
+    {
+      "hanzi": "书店",
+      "pinyin": "shūdiàn",
+      "tones": [
+        1
+      ],
+      "ja": "本屋"
+    },
+    {
+      "hanzi": "水",
+      "pinyin": "shuǐ",
+      "tones": [
+        3
+      ],
+      "ja": "水"
+    },
+    {
+      "hanzi": "水果",
+      "pinyin": "shuǐguǒ",
+      "tones": [
+        3
+      ],
+      "ja": "果物"
+    },
+    {
+      "hanzi": "睡",
+      "pinyin": "shuì",
+      "tones": [
+        4
+      ],
+      "ja": "眠る"
+    },
+    {
+      "hanzi": "睡觉",
+      "pinyin": "shuìjiào",
+      "tones": [
+        4
+      ],
+      "ja": "寝る"
+    },
+    {
+      "hanzi": "说",
+      "pinyin": "shuō",
+      "tones": [
+        1
+      ],
+      "ja": "言う"
+    },
+    {
+      "hanzi": "说话",
+      "pinyin": "shuōhuà",
+      "tones": [
+        1
+      ],
+      "ja": "話す"
+    },
+    {
+      "hanzi": "四",
+      "pinyin": "sì",
+      "tones": [
+        4
+      ],
+      "ja": "四"
+    },
+    {
+      "hanzi": "岁",
+      "pinyin": "suì",
+      "tones": [
+        4
+      ],
+      "ja": "歳"
+    },
+    {
+      "hanzi": "他",
+      "pinyin": "tā",
+      "tones": [
+        1
+      ],
+      "ja": "彼"
+    },
+    {
+      "hanzi": "它",
+      "pinyin": "tā",
+      "tones": [
+        1
+      ],
+      "ja": "それ"
+    },
+    {
+      "hanzi": "她",
+      "pinyin": "tā",
+      "tones": [
+        1
+      ],
+      "ja": "彼女"
+    },
+    {
+      "hanzi": "他们",
+      "pinyin": "tāmen",
+      "tones": [
+        1
+      ],
+      "ja": "彼ら"
+    },
+    {
+      "hanzi": "它们",
+      "pinyin": "tāmen",
+      "tones": [
+        1
+      ],
+      "ja": "それら"
+    },
+    {
+      "hanzi": "她们",
+      "pinyin": "tāmen",
+      "tones": [
+        1
+      ],
+      "ja": "彼女たち"
+    },
+    {
+      "hanzi": "太",
+      "pinyin": "tài",
+      "tones": [
+        4
+      ],
+      "ja": "あまりに"
+    },
+    {
+      "hanzi": "天",
+      "pinyin": "tiān",
+      "tones": [
+        1
+      ],
+      "ja": "日、空"
+    },
+    {
+      "hanzi": "天气",
+      "pinyin": "tiānqì",
+      "tones": [
+        1
+      ],
+      "ja": "天気"
+    },
+    {
+      "hanzi": "听",
+      "pinyin": "tīng",
+      "tones": [
+        1
+      ],
+      "ja": "聞く"
+    },
+    {
+      "hanzi": "听见",
+      "pinyin": "tīngjiàn",
+      "tones": [
+        1
+      ],
+      "ja": "聞こえる"
+    },
+    {
+      "hanzi": "同学",
+      "pinyin": "tóngxué",
+      "tones": [
+        2
+      ],
+      "ja": "クラスメート"
+    },
+    {
+      "hanzi": "外",
+      "pinyin": "wài",
+      "tones": [
+        4
+      ],
+      "ja": "外"
+    },
+    {
+      "hanzi": "外边",
+      "pinyin": "wàibian",
+      "tones": [
+        4
+      ],
+      "ja": "外側"
+    },
+    {
+      "hanzi": "玩",
+      "pinyin": "wán",
+      "tones": [
+        2
+      ],
+      "ja": "遊ぶ"
+    },
+    {
+      "hanzi": "晚",
+      "pinyin": "wǎn",
+      "tones": [
+        3
+      ],
+      "ja": "遅い"
+    },
+    {
+      "hanzi": "晚饭",
+      "pinyin": "wǎnfàn",
+      "tones": [
+        3
+      ],
+      "ja": "夕食"
+    },
+    {
+      "hanzi": "晚上",
+      "pinyin": "wǎnshang",
+      "tones": [
+        3
+      ],
+      "ja": "夜"
+    },
+    {
+      "hanzi": "喂",
+      "pinyin": "wèi",
+      "tones": [
+        4
+      ],
+      "ja": "もしもし"
+    },
+    {
+      "hanzi": "问",
+      "pinyin": "wèn",
+      "tones": [
+        4
+      ],
+      "ja": "尋ねる"
+    },
+    {
+      "hanzi": "问题",
+      "pinyin": "wèntí",
+      "tones": [
+        4
+      ],
+      "ja": "質問"
+    },
+    {
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "tones": [
+        3
+      ],
+      "ja": "私"
+    },
+    {
+      "hanzi": "我们",
+      "pinyin": "wǒmen",
+      "tones": [
+        3
+      ],
+      "ja": "私たち"
+    },
+    {
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "tones": [
+        3
+      ],
+      "ja": "五"
+    },
+    {
+      "hanzi": "午饭",
+      "pinyin": "wǔfàn",
+      "tones": [
+        3
+      ],
+      "ja": "昼食"
+    },
+    {
+      "hanzi": "喜欢",
+      "pinyin": "xǐhuan",
+      "tones": [
+        3
+      ],
+      "ja": "好き"
+    },
+    {
+      "hanzi": "下",
+      "pinyin": "xià",
+      "tones": [
+        4
+      ],
+      "ja": "下"
+    },
+    {
+      "hanzi": "下雨",
+      "pinyin": "xià yǔ",
+      "tones": [
+        4,
+        3
+      ],
+      "ja": "雨が降る"
+    },
+    {
+      "hanzi": "下班",
+      "pinyin": "xiàbān",
+      "tones": [
+        4
+      ],
+      "ja": "退勤する"
+    },
+    {
+      "hanzi": "下课",
+      "pinyin": "xiàkè",
+      "tones": [
+        4
+      ],
+      "ja": "授業が終わる"
+    },
+    {
+      "hanzi": "下午",
+      "pinyin": "xiàwǔ",
+      "tones": [
+        4
+      ],
+      "ja": "午後"
+    },
+    {
+      "hanzi": "先生",
+      "pinyin": "xiānsheng",
+      "tones": [
+        1
+      ],
+      "ja": "〜さん"
+    },
+    {
+      "hanzi": "现在",
+      "pinyin": "xiànzài",
+      "tones": [
+        4
+      ],
+      "ja": "今"
+    },
+    {
+      "hanzi": "想",
+      "pinyin": "xiǎng",
+      "tones": [
+        3
+      ],
+      "ja": "したい、思う"
+    },
+    {
+      "hanzi": "小",
+      "pinyin": "xiǎo",
+      "tones": [
+        3
+      ],
+      "ja": "小さい"
+    },
+    {
+      "hanzi": "小朋友",
+      "pinyin": "xiǎopéngyǒu",
+      "tones": [
+        3
+      ],
+      "ja": "子ども"
+    },
+    {
+      "hanzi": "小时",
+      "pinyin": "xiǎoshí",
+      "tones": [
+        3
+      ],
+      "ja": "時間"
+    },
+    {
+      "hanzi": "小学",
+      "pinyin": "xiǎoxué",
+      "tones": [
+        3
+      ],
+      "ja": "小学校"
+    },
+    {
+      "hanzi": "小学生",
+      "pinyin": "xiǎoxuéshēng",
+      "tones": [
+        3
+      ],
+      "ja": "小学生"
+    },
+    {
+      "hanzi": "些",
+      "pinyin": "xiē",
+      "tones": [
+        1
+      ],
+      "ja": "いくつか"
+    },
+    {
+      "hanzi": "写",
+      "pinyin": "xiě",
+      "tones": [
+        3
+      ],
+      "ja": "書く"
+    },
+    {
+      "hanzi": "谢谢",
+      "pinyin": "xièxie",
+      "tones": [
+        4
+      ],
+      "ja": "ありがとう"
+    },
+    {
+      "hanzi": "新",
+      "pinyin": "xīn",
+      "tones": [
+        1
+      ],
+      "ja": "新しい"
+    },
+    {
+      "hanzi": "星期",
+      "pinyin": "xīngqī",
+      "tones": [
+        1
+      ],
+      "ja": "週"
+    },
+    {
+      "hanzi": "星期日",
+      "pinyin": "xīngqīrì",
+      "tones": [
+        1
+      ],
+      "ja": "日曜日"
+    },
+    {
+      "hanzi": "星期天",
+      "pinyin": "xīngqītiān",
+      "tones": [
+        1
+      ],
+      "ja": "日曜日"
+    },
+    {
+      "hanzi": "休息",
+      "pinyin": "xiūxi",
+      "tones": [
+        1
+      ],
+      "ja": "休む"
+    },
+    {
+      "hanzi": "学",
+      "pinyin": "xué",
+      "tones": [
+        2
+      ],
+      "ja": "学ぶ"
+    },
+    {
+      "hanzi": "学生",
+      "pinyin": "xuéshēng",
+      "tones": [
+        2
+      ],
+      "ja": "学生"
+    },
+    {
+      "hanzi": "学习",
+      "pinyin": "xuéxí",
+      "tones": [
+        2
+      ],
+      "ja": "勉強する"
+    },
+    {
+      "hanzi": "学校",
+      "pinyin": "xuéxiào",
+      "tones": [
+        2
+      ],
+      "ja": "学校"
+    },
+    {
+      "hanzi": "雪",
+      "pinyin": "xuě",
+      "tones": [
+        3
+      ],
+      "ja": "雪"
+    },
+    {
+      "hanzi": "要",
+      "pinyin": "yào",
+      "tones": [
+        4
+      ],
+      "ja": "ほしい"
+    },
+    {
+      "hanzi": "也",
+      "pinyin": "yě",
+      "tones": [
+        3
+      ],
+      "ja": "も"
+    },
+    {
+      "hanzi": "一",
+      "pinyin": "yī",
+      "tones": [
+        1
+      ],
+      "ja": "一"
+    },
+    {
+      "hanzi": "衣服",
+      "pinyin": "yīfu",
+      "tones": [
+        1
+      ],
+      "ja": "服"
+    },
+    {
+      "hanzi": "医生",
+      "pinyin": "yīshēng",
+      "tones": [
+        1
+      ],
+      "ja": "医者"
+    },
+    {
+      "hanzi": "医院",
+      "pinyin": "yīyuàn",
+      "tones": [
+        1
+      ],
+      "ja": "病院"
+    },
+    {
+      "hanzi": "一半",
+      "pinyin": "yíbàn",
+      "tones": [
+        2
+      ],
+      "ja": "半分"
+    },
+    {
+      "hanzi": "一下",
+      "pinyin": "yíxià",
+      "tones": [
+        2
+      ],
+      "ja": "ちょっと"
+    },
+    {
+      "hanzi": "椅子",
+      "pinyin": "yǐzi",
+      "tones": [
+        3
+      ],
+      "ja": "いす"
+    },
+    {
+      "hanzi": "一点",
+      "pinyin": "yìdiǎn",
+      "tones": [
+        4
+      ],
+      "ja": "少し"
+    },
+    {
+      "hanzi": "一些",
+      "pinyin": "yìxiē",
+      "tones": [
+        4
+      ],
+      "ja": "いくつか"
+    },
+    {
+      "hanzi": "有",
+      "pinyin": "yǒu",
+      "tones": [
+        3
+      ],
+      "ja": "ある"
+    },
+    {
+      "hanzi": "有的",
+      "pinyin": "yǒude",
+      "tones": [
+        3
+      ],
+      "ja": "ある人は"
+    },
+    {
+      "hanzi": "有点",
+      "pinyin": "yǒudiǎn",
+      "tones": [
+        3
+      ],
+      "ja": "少し"
+    },
+    {
+      "hanzi": "有些",
+      "pinyin": "yǒuxiē",
+      "tones": [
+        3
+      ],
+      "ja": "いくらか"
+    },
+    {
+      "hanzi": "雨",
+      "pinyin": "yǔ",
+      "tones": [
+        3
+      ],
+      "ja": "雨"
+    },
+    {
+      "hanzi": "元",
+      "pinyin": "yuán",
+      "tones": [
+        2
+      ],
+      "ja": "元"
+    },
+    {
+      "hanzi": "月",
+      "pinyin": "yuè",
+      "tones": [
+        4
+      ],
+      "ja": "月"
+    },
+    {
+      "hanzi": "再",
+      "pinyin": "zài",
+      "tones": [
+        4
+      ],
+      "ja": "また"
+    },
+    {
+      "hanzi": "在",
+      "pinyin": "zài",
+      "tones": [
+        4
+      ],
+      "ja": "〜にいる"
+    },
+    {
+      "hanzi": "再见",
+      "pinyin": "zàijiàn",
+      "tones": [
+        4
+      ],
+      "ja": "さようなら"
+    },
+    {
+      "hanzi": "早",
+      "pinyin": "zǎo",
+      "tones": [
+        3
+      ],
+      "ja": "早い"
+    },
+    {
+      "hanzi": "早饭",
+      "pinyin": "zǎofàn",
+      "tones": [
+        3
+      ],
+      "ja": "朝食"
+    },
+    {
+      "hanzi": "早上",
+      "pinyin": "zǎoshang",
+      "tones": [
+        3
+      ],
+      "ja": "朝"
+    },
+    {
+      "hanzi": "怎么",
+      "pinyin": "zěnme",
+      "tones": [
+        3
+      ],
+      "ja": "どう"
+    },
+    {
+      "hanzi": "怎么样",
+      "pinyin": "zěnmeyàng",
+      "tones": [
+        3
+      ],
+      "ja": "どうですか"
+    },
+    {
+      "hanzi": "找",
+      "pinyin": "zhǎo",
+      "tones": [
+        3
+      ],
+      "ja": "探す"
+    },
+    {
+      "hanzi": "这",
+      "pinyin": "zhè",
+      "tones": [
+        4
+      ],
+      "ja": "この"
+    },
+    {
+      "hanzi": "这边",
+      "pinyin": "zhèbiān",
+      "tones": [
+        4
+      ],
+      "ja": "こちら"
+    },
+    {
+      "hanzi": "这个",
+      "pinyin": "zhège",
+      "tones": [
+        4
+      ],
+      "ja": "これ"
+    },
+    {
+      "hanzi": "这里",
+      "pinyin": "zhèlǐ",
+      "tones": [
+        4
+      ],
+      "ja": "ここ"
+    },
+    {
+      "hanzi": "这个",
+      "pinyin": "zhège",
+      "tones": [
+        4
+      ],
+      "ja": "ここ"
+    },
+    {
+      "hanzi": "这些",
+      "pinyin": "zhèxiē",
+      "tones": [
+        4
+      ],
+      "ja": "これら"
+    },
+    {
+      "hanzi": "真",
+      "pinyin": "zhēn",
+      "tones": [
+        1
+      ],
+      "ja": "本当に"
+    },
+    {
+      "hanzi": "正在",
+      "pinyin": "zhèngzài",
+      "tones": [
+        4
+      ],
+      "ja": "〜している"
+    },
+    {
+      "hanzi": "只",
+      "pinyin": "zhī",
+      "tones": [
+        1
+      ],
+      "ja": "匹"
+    },
+    {
+      "hanzi": "知道",
+      "pinyin": "zhīdào",
+      "tones": [
+        1
+      ],
+      "ja": "知っている"
+    },
+    {
+      "hanzi": "中国",
+      "pinyin": "Zhōngguó",
+      "tones": [
+        1
+      ],
+      "ja": "中国"
+    },
+    {
+      "hanzi": "中文",
+      "pinyin": "Zhōngwén",
+      "tones": [
+        1
+      ],
+      "ja": "中国語"
+    },
+    {
+      "hanzi": "中午",
+      "pinyin": "zhōngwǔ",
+      "tones": [
+        1
+      ],
+      "ja": "昼"
+    },
+    {
+      "hanzi": "中学",
+      "pinyin": "zhōngxué",
+      "tones": [
+        1
+      ],
+      "ja": "中学校"
+    },
+    {
+      "hanzi": "中学生",
+      "pinyin": "zhōngxuéshēng",
+      "tones": [
+        1
+      ],
+      "ja": "中学生"
+    },
+    {
+      "hanzi": "住",
+      "pinyin": "zhù",
+      "tones": [
+        4
+      ],
+      "ja": "住む"
+    },
+    {
+      "hanzi": "桌子",
+      "pinyin": "zhuōzi",
+      "tones": [
+        1
+      ],
+      "ja": "机"
+    },
+    {
+      "hanzi": "字",
+      "pinyin": "zì",
+      "tones": [
+        4
+      ],
+      "ja": "字"
+    },
+    {
+      "hanzi": "昨天",
+      "pinyin": "zuótiān",
+      "tones": [
+        2
+      ],
+      "ja": "昨日"
+    },
+    {
+      "hanzi": "坐",
+      "pinyin": "zuò",
+      "tones": [
+        4
+      ],
+      "ja": "座る、乗る"
+    },
+    {
+      "hanzi": "做",
+      "pinyin": "zuò",
+      "tones": [
+        4
+      ],
+      "ja": "する"
+    },
+    {
+      "hanzi": "做饭",
+      "pinyin": "zuò fàn",
+      "tones": [
+        4,
+        4
+      ],
+      "ja": "料理を作る"
+    }
+  ]
+}
