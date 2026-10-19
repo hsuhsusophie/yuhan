@@ -1,11 +1,18 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { RouterLink } from 'vue-router'
-import { grammarLessons } from '@/data/grammar'
+import { grammarByLevel } from '@/data/grammar'
+import { level } from '@/data/study'
 
 const index = ref(0)
 const showAll = ref(false)
-const lesson = computed(() => grammarLessons[index.value])
+const grammarLessons = computed(() => grammarByLevel[level.value])
+const lesson = computed(() => grammarLessons.value[index.value])
+
+watch(level, () => {
+  index.value = 0
+  showAll.value = false
+})
 
 function open(next: number) {
   index.value = next
@@ -15,7 +22,7 @@ function open(next: number) {
 
 function step(delta: number) {
   const next = index.value + delta
-  if (next < 0 || next >= grammarLessons.length) return
+  if (next < 0 || next >= grammarLessons.value.length) return
   open(next)
 }
 </script>
@@ -23,7 +30,7 @@ function step(delta: number) {
 <template>
   <div v-if="showAll" class="kicker-row">
     <button class="text-link" type="button" @click="showAll = false">この課へ</button>
-    <p class="page-kicker">HSK 1 · {{ grammarLessons.length }}課</p>
+    <p class="page-kicker">HSK {{ level }} · {{ grammarLessons.length }}課</p>
   </div>
   <div v-else class="kicker-row">
     <p class="page-kicker">{{ index + 1 }} / {{ grammarLessons.length }}</p>

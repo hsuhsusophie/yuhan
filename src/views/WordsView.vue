@@ -1,19 +1,37 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { RouterLink } from 'vue-router'
-import { dailyWords, markWord, marks, words } from '@/data/study'
+import { dailyWords, level, markWord, marks, words } from '@/data/study'
 
 const index = ref(0)
 const revealed = ref(false)
 const showAll = ref(false)
+function wordKey(word: { hanzi: string; pinyin: string }) {
+  return `${word.hanzi}\n${word.pinyin}`
+}
+
 const statusByHanzi = computed(() => {
   const map = new Map<string, 'known' | 'fuzzy'>()
-  for (const mark of marks.value) map.set(mark.hanzi, mark.result)
+  for (const mark of marks.value) {
+    if (mark.pinyin) {
+      map.set(wordKey(mark as { hanzi: string; pinyin: string }), mark.result)
+      continue
+    }
+    for (const word of words.value) {
+      if (word.hanzi === mark.hanzi) map.set(wordKey(word), mark.result)
+    }
+  }
   return map
 })
-const session = dailyWords.value.slice()
-const finished = computed(() => index.value >= session.length)
-const word = computed(() => session[index.value])
+const session = ref(dailyWords.value.slice())
+watch(level, () => {
+  session.value = dailyWords.value.slice()
+  index.value = 0
+  revealed.value = false
+  showAll.value = false
+})
+const finished = computed(() => index.value >= session.value.length)
+const word = computed(() => session.value[index.value])
 
 const tonePath: Record<number, string> = {
   1: 'M4 14 H60',
@@ -56,7 +74,7 @@ function choose(result: 'known' | 'fuzzy') {
   const current = word.value
   if (!current) return
   speechSynthesis.cancel()
-  markWord(current.hanzi, result)
+  markWord(current, result)
   revealed.value = false
   index.value += 1
 }
@@ -65,7 +83,7 @@ function choose(result: 'known' | 'fuzzy') {
 <template>
   <div v-if="showAll" class="kicker-row">
     <button class="text-link" type="button" @click="closeAll">今日の単語</button>
-    <p class="page-kicker">HSK 1 · {{ words.length }}語</p>
+    <p class="page-kicker">HSK {{ level }} · {{ words.length }}語</p>
   </div>
   <div v-else class="kicker-row">
     <p v-if="!finished" class="page-kicker">{{ index + 1 }} / {{ session.length }}</p>
@@ -74,12 +92,12 @@ function choose(result: 'known' | 'fuzzy') {
   </div>
 
   <section v-if="showAll" class="word-list">
-    <article v-for="item in words" :key="item.hanzi" class="word-row">
+    <article v-for="item in words" :key="wordKey(item)" class="word-row">
       <p class="row-hanzi">{{ item.hanzi }}</p>
       <p class="row-pinyin">{{ item.pinyin }}</p>
       <p class="row-ja">{{ item.ja }}</p>
-      <p v-if="statusByHanzi.get(item.hanzi) === 'known'" class="row-state known">覚えた</p>
-      <p v-else-if="statusByHanzi.get(item.hanzi) === 'fuzzy'" class="row-state fuzzy">あやふや</p>
+      <p v-if="statusByHanzi.get(wordKey(item)) === 'known'" class="row-state known">覚えた</p>
+      <p v-else-if="statusByHanzi.get(wordKey(item)) === 'fuzzy'" class="row-state fuzzy">あやふや</p>
       <button class="speak row-speak" type="button" aria-label="聞く" @click="speak(item.hanzi)">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <path d="M4 9.5v5h3.2L12 19V5L7.2 9.5H4z" />

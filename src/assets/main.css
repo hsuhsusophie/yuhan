@@ -93,15 +93,12 @@ a {
 }
 
 .seal {
-  width: 30px;
-  height: 30px;
-  border-radius: 5px;
-  background: var(--cinnabar);
-  color: #fff8f4;
-  font-family: 'Noto Serif SC', serif;
-  font-size: 16px;
-  display: grid;
-  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  object-fit: cover;
+  background: #fff;
+  box-shadow: inset 0 0 0 1px var(--line);
   flex: none;
 }
 

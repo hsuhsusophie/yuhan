@@ -1,4 +1,5 @@
-import catalog from './grammar-hsk1.json'
+import hsk1 from './grammar-hsk1.json'
+import hsk2 from './grammar-hsk2.json'
 
 export interface GrammarExample {
   zh: string
@@ -15,5 +16,8 @@ export interface GrammarLesson {
   examples: GrammarExample[]
 }
 
-export const grammarAttribution = catalog.attribution
-export const grammarLessons = catalog.lessons as GrammarLesson[]
+export const grammarAttribution = hsk1.attribution
+export const grammarByLevel = {
+  1: hsk1.lessons as GrammarLesson[],
+  2: hsk2.lessons as GrammarLesson[],
+} as const

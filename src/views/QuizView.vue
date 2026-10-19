@@ -12,7 +12,7 @@ const kindLabels: Record<QuizKind, string> = { meaning: '意味', hanzi: '漢字
 const router = useRouter()
 const route = useRoute()
 const reviewing = computed(() => route.query.pool === 'review')
-const source = computed(() => (reviewing.value ? reviewWords.value : words))
+const source = computed(() => (reviewing.value ? reviewWords.value : words.value))
 const countChoices = computed(() => {
   const max = source.value.length
   const preset = [10, 20, 50].filter((value) => value <= max)

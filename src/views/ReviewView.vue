@@ -13,7 +13,7 @@ const router = useRouter()
   <p v-if="reviewWords.length === 0" class="page-kicker">あやふやにした単語が、ここに残ります。</p>
   <p v-else class="page-kicker">「あやふや」にした語です。</p>
   <div class="review-list">
-    <article v-for="item in reviewWords" :key="item.hanzi" class="review-item">
+    <article v-for="item in reviewWords" :key="`${item.hanzi}-${item.pinyin}`" class="review-item">
       <div>
         <b>{{ item.hanzi }}</b>
         <small>{{ item.pinyin }}　{{ item.ja }}</small>

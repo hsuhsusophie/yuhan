@@ -1,5 +1,6 @@
 import { computed, ref, watch } from 'vue'
-import catalog from './hsk1.json'
+import hsk1 from './hsk1.json'
+import hsk2 from './hsk2.json'
 
 export interface Word {
   hanzi: string
@@ -8,14 +9,19 @@ export interface Word {
   ja: string
 }
 
-export const words = catalog.words as Word[]
-export const attribution = catalog.attribution
+export const levelChoices = [1, 2] as const
+export type Level = (typeof levelChoices)[number]
+
+const catalogs: Record<Level, Word[]> = {
+  1: hsk1.words as Word[],
+  2: hsk2.words as Word[],
+}
+export const attribution = hsk1.attribution
 
 const settingsKey = 'kango-settings'
 export const minuteChoices = [5, 10, 20] as const
-export const levelChoices = [1] as const
 
-function loadSettings(): { minutes: number; level: number } {
+function loadSettings(): { minutes: number; level: Level } {
   try {
     if (typeof localStorage === 'undefined') return { minutes: 5, level: 1 }
     const raw = localStorage.getItem(settingsKey)
@@ -31,7 +37,8 @@ function loadSettings(): { minutes: number; level: number } {
 
 const savedSettings = loadSettings()
 export const minutes = ref(savedSettings.minutes)
-export const level = ref(savedSettings.level)
+export const level = ref<Level>(savedSettings.level)
+export const words = computed(() => catalogs[level.value])
 export const dailyCount = computed(() => minutes.value * 2)
 
 watch([minutes, level], () => {
@@ -40,6 +47,7 @@ watch([minutes, level], () => {
 
 interface Mark {
   hanzi: string
+  pinyin?: string
   result: 'known' | 'fuzzy'
   date: string
 }
@@ -76,30 +84,48 @@ watch(
   { deep: true },
 )
 
-function latest(hanzi: string): Mark | undefined {
+function wordKey(word: Pick<Word, 'hanzi' | 'pinyin'>): string {
+  return `${word.hanzi}\n${word.pinyin}`
+}
+
+function latest(word: Pick<Word, 'hanzi' | 'pinyin'>): Mark | undefined {
   for (let index = marks.value.length - 1; index >= 0; index -= 1) {
     const mark = marks.value[index]
-    if (mark?.hanzi === hanzi) return mark
+    if (!mark || mark.hanzi !== word.hanzi) continue
+    if (mark.pinyin && mark.pinyin !== word.pinyin) continue
+    return mark
   }
   return undefined
 }
 
-export function markWord(hanzi: string, result: 'known' | 'fuzzy') {
-  marks.value.push({ hanzi, result, date: today() })
+export function markWord(word: Pick<Word, 'hanzi' | 'pinyin'>, result: 'known' | 'fuzzy') {
+  marks.value.push({ hanzi: word.hanzi, pinyin: word.pinyin, result, date: today() })
 }
 
 export const todayDone = computed(() => {
   const day = today()
-  return new Set(marks.value.filter((mark) => mark.date === day).map((mark) => mark.hanzi)).size
+  const inLevel = new Set(words.value.map(wordKey))
+  const done = new Set<string>()
+  for (const mark of marks.value) {
+    if (mark.date !== day) continue
+    if (mark.pinyin) {
+      const key = wordKey({ hanzi: mark.hanzi, pinyin: mark.pinyin })
+      if (inLevel.has(key)) done.add(key)
+    } else if (words.value.some((word) => word.hanzi === mark.hanzi)) {
+      done.add(mark.hanzi)
+    }
+  }
+  return done.size
 })
 
 export const dailyWords = computed(() => {
-  const pending = words.filter((word) => latest(word.hanzi)?.result !== 'known')
+  const list = words.value
+  const pending = list.filter((word) => latest(word)?.result !== 'known')
   const count = dailyCount.value
-  return (pending.length >= count ? pending : words).slice(0, count)
+  return (pending.length >= count ? pending : list).slice(0, count)
 })
 
-export const reviewWords = computed(() => words.filter((word) => latest(word.hanzi)?.result === 'fuzzy'))
+export const reviewWords = computed(() => words.value.filter((word) => latest(word)?.result === 'fuzzy'))
 
 export const streak = computed(() => {
   const studied = new Set(marks.value.map((mark) => mark.date))
@@ -161,14 +187,14 @@ function answerText(word: Word, kind: QuizKind): string {
   return word.ja
 }
 
-export function buildQuiz(kind: QuizKind, count: number, source: Word[] = words): QuizItem[] {
+export function buildQuiz(kind: QuizKind, count: number, source: Word[] = words.value): QuizItem[] {
   if (count <= 0 || source.length === 0) return []
   const picked = shuffle(source).slice(0, Math.min(count, source.length))
   const copy = quizCopy[kind]
   return picked.map((word) => {
     const correct = answerText(word, kind)
     const distractors = shuffle(
-      words.filter((item) => item.hanzi !== word.hanzi && answerText(item, kind) !== correct),
+      words.value.filter((item) => item.hanzi !== word.hanzi && answerText(item, kind) !== correct),
     )
       .slice(0, 3)
       .map((item) => answerText(item, kind))

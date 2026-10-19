@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
-import { grammarLessons } from '@/data/grammar'
+import { grammarByLevel } from '@/data/grammar'
 import { dailyCount, level, minutes, streak, todayDone, week } from '@/data/study'
 
+const lessons = computed(() => grammarByLevel[level.value])
 const done = computed(() => Math.min(todayDone.value, dailyCount.value))
 const radius = 36
 const circumference = 2 * Math.PI * radius
@@ -58,7 +59,7 @@ const dashOffset = computed(() => circumference * (1 - done.value / dailyCount.v
     <RouterLink to="/grammar" class="action-quiet">
       <span>
         <strong>文法</strong>
-        <small>HSK {{ level }}　{{ grammarLessons.length }}課</small>
+        <small>HSK {{ level }}　{{ lessons.length }}課</small>
       </span>
       <span class="chevron">›</span>
     </RouterLink>
