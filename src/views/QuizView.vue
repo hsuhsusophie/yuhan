@@ -194,6 +194,10 @@ function choiceClass(option: number) {
   width: min(100%, 320px);
 }
 
+.done .btn + .btn {
+  margin-top: 14px;
+}
+
 .quiz-play {
   flex: 1;
   min-height: 0;

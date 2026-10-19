@@ -1,0 +1,714 @@
+{
+  "attribution": "文法項目は新しい HSK の文法大綱に合わせ、説明と例文はこのアプリ用に書いています。",
+  "lessons": [
+    {
+      "id": "prefix",
+      "group": "語素",
+      "title": "小—、第—",
+      "pinyin": "xiǎo / dì",
+      "ja": "名前の前の「小」は親しみ、「第」は順番です。",
+      "examples": [
+        { "zh": "小王", "pinyin": "Xiǎo Wáng", "ja": "王さん" },
+        { "zh": "第一", "pinyin": "dì yī", "ja": "一番目" }
+      ]
+    },
+    {
+      "id": "suffix",
+      "group": "語素",
+      "title": "—们、—边",
+      "pinyin": "men / bian",
+      "ja": "「们」は複数、「边」は方向や端です。",
+      "examples": [
+        { "zh": "我们", "pinyin": "wǒmen", "ja": "私たち" },
+        { "zh": "左边", "pinyin": "zuǒbian", "ja": "左側" }
+      ]
+    },
+    {
+      "id": "locality",
+      "group": "名詞",
+      "title": "上、下、里、外、前、后",
+      "pinyin": "shàng / xià / lǐ / wài / qián / hòu",
+      "ja": "物の位置を言う名詞です。名詞のうしろに置きます。",
+      "examples": [
+        { "zh": "桌子上", "pinyin": "zhuōzi shàng", "ja": "机の上" },
+        { "zh": "家里", "pinyin": "jiā lǐ", "ja": "家の中" }
+      ]
+    },
+    {
+      "id": "hui-neng",
+      "group": "動詞",
+      "title": "会、能",
+      "pinyin": "huì / néng",
+      "ja": "「会」は身についた能力、「能」はその時にできることです。動詞の前に置きます。",
+      "examples": [
+        { "zh": "我会说中文。", "pinyin": "Wǒ huì shuō Zhōngwén.", "ja": "私は中国語が話せる。" },
+        { "zh": "我能来。", "pinyin": "Wǒ néng lái.", "ja": "私は来られる。" }
+      ]
+    },
+    {
+      "id": "xiang-yao",
+      "group": "動詞",
+      "title": "想、要",
+      "pinyin": "xiǎng / yào",
+      "ja": "「想」はしたい気持ち、「要」は欲しい、またはするつもりです。",
+      "examples": [
+        { "zh": "我想喝茶。", "pinyin": "Wǒ xiǎng hē chá.", "ja": "お茶が飲みたい。" },
+        { "zh": "我要水。", "pinyin": "Wǒ yào shuǐ.", "ja": "水が欲しい。" }
+      ]
+    },
+    {
+      "id": "keyi",
+      "group": "動詞",
+      "title": "可以",
+      "pinyin": "kěyǐ",
+      "ja": "許可や可能です。動詞の前に置きます。",
+      "examples": [
+        { "zh": "可以进来吗？", "pinyin": "Kěyǐ jìnlái ma?", "ja": "入ってもいいですか。" },
+        { "zh": "我可以帮你。", "pinyin": "Wǒ kěyǐ bāng nǐ.", "ja": "手伝えるよ。" }
+      ]
+    },
+    {
+      "id": "separable",
+      "group": "動詞",
+      "title": "看病、睡觉、说话",
+      "pinyin": "kàn bìng / shuì jiào / shuō huà",
+      "ja": "一つの動詞のように見えて、あいだに別の語を入れられる語です。",
+      "examples": [
+        { "zh": "我去看病。", "pinyin": "Wǒ qù kàn bìng.", "ja": "医者に診てもらいに行く。" },
+        { "zh": "我睡觉。", "pinyin": "Wǒ shuì jiào.", "ja": "寝る。" }
+      ]
+    },
+    {
+      "id": "question-words",
+      "group": "代詞",
+      "title": "什么、谁、哪儿、怎么",
+      "pinyin": "shénme / shéi / nǎr / zěnme",
+      "ja": "疑問詞は文の中の聞きたい位置に置きます。語順は平叙文のままです。",
+      "examples": [
+        { "zh": "你去哪儿？", "pinyin": "Nǐ qù nǎr?", "ja": "どこへ行くの。" },
+        { "zh": "这是什么？", "pinyin": "Zhè shì shénme?", "ja": "これは何。" }
+      ]
+    },
+    {
+      "id": "personal",
+      "group": "代詞",
+      "title": "我、你、他、她",
+      "pinyin": "wǒ / nǐ / tā",
+      "ja": "人を指します。「们」を付けると複数になります。",
+      "examples": [
+        { "zh": "我是学生。", "pinyin": "Wǒ shì xuésheng.", "ja": "私は学生です。" },
+        { "zh": "他们在家。", "pinyin": "Tāmen zài jiā.", "ja": "彼らは家にいる。" }
+      ]
+    },
+    {
+      "id": "demonstrative",
+      "group": "代詞",
+      "title": "这、那",
+      "pinyin": "zhè / nà",
+      "ja": "「这」は近く、「那」は遠くです。量詞を挟むことが多いです。",
+      "examples": [
+        { "zh": "这个人", "pinyin": "zhège rén", "ja": "この人" },
+        { "zh": "那本书", "pinyin": "nà běn shū", "ja": "あの本" }
+      ]
+    },
+    {
+      "id": "numbers",
+      "group": "数詞",
+      "title": "二 / 两",
+      "pinyin": "èr / liǎng",
+      "ja": "数えるときは「两」、番号や十の位では「二」を使います。",
+      "examples": [
+        { "zh": "两个人", "pinyin": "liǎng ge rén", "ja": "二人" },
+        { "zh": "十二", "pinyin": "shí'èr", "ja": "十二" }
+      ]
+    },
+    {
+      "id": "measure",
+      "group": "量詞",
+      "title": "个、本、杯",
+      "pinyin": "gè / běn / bēi",
+      "ja": "数と名詞のあいだに量詞を置きます。「个」がいちばん広いです。",
+      "examples": [
+        { "zh": "一本书", "pinyin": "yì běn shū", "ja": "一冊の本" },
+        { "zh": "一杯茶", "pinyin": "yì bēi chá", "ja": "一杯のお茶" }
+      ]
+    },
+    {
+      "id": "time-measure",
+      "group": "量詞",
+      "title": "天、点、岁",
+      "pinyin": "tiān / diǎn / suì",
+      "ja": "時間や年齢を数える語です。",
+      "examples": [
+        { "zh": "一天", "pinyin": "yì tiān", "ja": "一日" },
+        { "zh": "三岁", "pinyin": "sān suì", "ja": "三歳" }
+      ]
+    },
+    {
+      "id": "degree",
+      "group": "副詞",
+      "title": "很、非常、太",
+      "pinyin": "hěn / fēicháng / tài",
+      "ja": "形容詞の前に置いて程度を言います。「太」は後ろに「了」が来ることが多いです。",
+      "examples": [
+        { "zh": "很好", "pinyin": "hěn hǎo", "ja": "とてもよい" },
+        { "zh": "太贵了", "pinyin": "tài guì le", "ja": "高すぎる" }
+      ]
+    },
+    {
+      "id": "dou",
+      "group": "副詞",
+      "title": "都",
+      "pinyin": "dōu",
+      "ja": "「みな」です。指している語のうしろ、動詞の前に置きます。",
+      "examples": [
+        { "zh": "我们都是学生。", "pinyin": "Wǒmen dōu shì xuésheng.", "ja": "私たちはみな学生です。" }
+      ]
+    },
+    {
+      "id": "zai-adv",
+      "group": "副詞",
+      "title": "在、正在",
+      "pinyin": "zài / zhèngzài",
+      "ja": "動作が進行中であることを動詞の前で示します。",
+      "examples": [
+        { "zh": "我在看书。", "pinyin": "Wǒ zài kàn shū.", "ja": "本を読んでいる。" }
+      ]
+    },
+    {
+      "id": "zai-again",
+      "group": "副詞",
+      "title": "再",
+      "pinyin": "zài",
+      "ja": "これからもう一度、またはそのあとで、という副詞です。",
+      "examples": [
+        { "zh": "再来一杯。", "pinyin": "Zài lái yì bēi.", "ja": "もう一杯ください。" }
+      ]
+    },
+    {
+      "id": "hai-ye",
+      "group": "副詞",
+      "title": "还、也",
+      "pinyin": "hái / yě",
+      "ja": "「还」はさらに、「也」は同じく、です。どちらも動詞の前です。",
+      "examples": [
+        { "zh": "我也去。", "pinyin": "Wǒ yě qù.", "ja": "私も行く。" },
+        { "zh": "我还有茶。", "pinyin": "Wǒ hái yǒu chá.", "ja": "まだお茶がある。" }
+      ]
+    },
+    {
+      "id": "negation",
+      "group": "副詞",
+      "title": "不、没、不要",
+      "pinyin": "bù / méi / búyào",
+      "ja": "「不」は習慣や意志、「没」はまだ起きていないこと、「不要」は禁止です。",
+      "examples": [
+        { "zh": "我不喝茶。", "pinyin": "Wǒ bù hē chá.", "ja": "お茶は飲まない。" },
+        { "zh": "我没去。", "pinyin": "Wǒ méi qù.", "ja": "行かなかった。" }
+      ]
+    },
+    {
+      "id": "zai-prep",
+      "group": "介詞",
+      "title": "在",
+      "pinyin": "zài",
+      "ja": "場所や時を導きます。うしろに場所が来て、そのあと動詞です。",
+      "examples": [
+        { "zh": "我在家看书。", "pinyin": "Wǒ zài jiā kàn shū.", "ja": "家で本を読む。" }
+      ]
+    },
+    {
+      "id": "he-dui",
+      "group": "介詞",
+      "title": "和、对",
+      "pinyin": "hé / duì",
+      "ja": "「和」は相手といっしょに、「对」は向かう相手です。",
+      "examples": [
+        { "zh": "我和你去。", "pinyin": "Wǒ hé nǐ qù.", "ja": "あなたと行く。" },
+        { "zh": "对我说", "pinyin": "duì wǒ shuō", "ja": "私に言う" }
+      ]
+    },
+    {
+      "id": "he-and",
+      "group": "接続",
+      "title": "和",
+      "pinyin": "hé",
+      "ja": "名詞どうしをつなぎます。文と文はつなぎません。",
+      "examples": [
+        { "zh": "爸爸和妈妈", "pinyin": "bàba hé māma", "ja": "父と母" }
+      ]
+    },
+    {
+      "id": "de",
+      "group": "助詞",
+      "title": "的",
+      "pinyin": "de",
+      "ja": "持ち主や中身を言うとき、うしろの名詞につなぎます。日本語の「の」に近い使い方です。",
+      "examples": [
+        { "zh": "我的书", "pinyin": "wǒ de shū", "ja": "わたしの本" },
+        { "zh": "你的茶", "pinyin": "nǐ de chá", "ja": "あなたの茶" }
+      ]
+    },
+    {
+      "id": "le-1",
+      "group": "助詞",
+      "title": "了",
+      "pinyin": "le",
+      "ja": "動詞の直後に置く「了」は、その動作が完了したことを示します。",
+      "examples": [
+        { "zh": "我吃了。", "pinyin": "Wǒ chī le.", "ja": "食べた。" },
+        { "zh": "我买了一本书。", "pinyin": "Wǒ mǎi le yì běn shū.", "ja": "本を一冊買った。" }
+      ]
+    },
+    {
+      "id": "particles",
+      "group": "助詞",
+      "title": "吗、吧、呢",
+      "pinyin": "ma / ba / ne",
+      "ja": "文の最後に置きます。「吗」ははい・いいえの質問、「吧」は提案、「呢」は相手に聞き返すときです。",
+      "examples": [
+        { "zh": "你是学生吗？", "pinyin": "Nǐ shì xuésheng ma?", "ja": "学生ですか。" },
+        { "zh": "我们走吧。", "pinyin": "Wǒmen zǒu ba.", "ja": "行きましょう。" }
+      ]
+    },
+    {
+      "id": "wei",
+      "group": "感動詞",
+      "title": "喂",
+      "pinyin": "wèi",
+      "ja": "電話や呼びかけの最初に使います。",
+      "examples": [
+        { "zh": "喂，你好。", "pinyin": "Wèi, nǐ hǎo.", "ja": "もしもし、こんにちは。" }
+      ]
+    },
+    {
+      "id": "coordinate",
+      "group": "フレーズ",
+      "title": "並べる",
+      "pinyin": "",
+      "ja": "同じ種類の語を「和」で並べます。",
+      "examples": [
+        { "zh": "茶和水", "pinyin": "chá hé shuǐ", "ja": "お茶と水" }
+      ]
+    },
+    {
+      "id": "modifier",
+      "group": "フレーズ",
+      "title": "修飾",
+      "pinyin": "",
+      "ja": "前の語がうしろの名詞を説明します。「的」が入ることが多いです。",
+      "examples": [
+        { "zh": "我的书", "pinyin": "wǒ de shū", "ja": "私の本" },
+        { "zh": "中国茶", "pinyin": "Zhōngguó chá", "ja": "中国のお茶" }
+      ]
+    },
+    {
+      "id": "verb-object",
+      "group": "フレーズ",
+      "title": "動詞＋目的語",
+      "pinyin": "",
+      "ja": "動詞のうしろに、その対象が来ます。",
+      "examples": [
+        { "zh": "喝茶", "pinyin": "hē chá", "ja": "お茶を飲む" },
+        { "zh": "看书", "pinyin": "kàn shū", "ja": "本を読む" }
+      ]
+    },
+    {
+      "id": "subject-predicate",
+      "group": "フレーズ",
+      "title": "主語＋述語",
+      "pinyin": "",
+      "ja": "誰が、何をするか、の順です。",
+      "examples": [
+        { "zh": "我去", "pinyin": "wǒ qù", "ja": "私が行く" }
+      ]
+    },
+    {
+      "id": "number-phrase",
+      "group": "フレーズ",
+      "title": "数＋量詞",
+      "pinyin": "",
+      "ja": "数、量詞、名詞の順です。",
+      "examples": [
+        { "zh": "三个人", "pinyin": "sān ge rén", "ja": "三人" }
+      ]
+    },
+    {
+      "id": "prep-phrase",
+      "group": "フレーズ",
+      "title": "介詞＋名詞",
+      "pinyin": "",
+      "ja": "「在」などのうしろに場所や相手が来ます。",
+      "examples": [
+        { "zh": "在家", "pinyin": "zài jiā", "ja": "家で" }
+      ]
+    },
+    {
+      "id": "locality-phrase",
+      "group": "フレーズ",
+      "title": "名詞＋方位",
+      "pinyin": "",
+      "ja": "物の名前のうしろに「上」「里」などを付けて位置を言います。",
+      "examples": [
+        { "zh": "桌子上", "pinyin": "zhuōzi shàng", "ja": "机の上" }
+      ]
+    },
+    {
+      "id": "subject",
+      "group": "文の成分",
+      "title": "主語",
+      "pinyin": "",
+      "ja": "文の最初に、誰のことかを置きます。名詞でも代詞でも構いません。",
+      "examples": [
+        { "zh": "我是学生。", "pinyin": "Wǒ shì xuésheng.", "ja": "私は学生です。" }
+      ]
+    },
+    {
+      "id": "noun-predicate",
+      "group": "文の成分",
+      "title": "名詞が述語",
+      "pinyin": "",
+      "ja": "日付や年齢のように、動詞なしで名詞が述語になることがあります。",
+      "examples": [
+        { "zh": "今天星期一。", "pinyin": "Jīntiān xīngqīyī.", "ja": "今日は月曜日。" }
+      ]
+    },
+    {
+      "id": "verb-predicate",
+      "group": "文の成分",
+      "title": "動詞・形容詞が述語",
+      "pinyin": "",
+      "ja": "ふつうの文は、動詞か形容詞が述語になります。",
+      "examples": [
+        { "zh": "我喝茶。", "pinyin": "Wǒ hē chá.", "ja": "お茶を飲む。" },
+        { "zh": "今天很热。", "pinyin": "Jīntiān hěn rè.", "ja": "今日は暑い。" }
+      ]
+    },
+    {
+      "id": "object",
+      "group": "文の成分",
+      "title": "目的語",
+      "pinyin": "",
+      "ja": "動詞のうしろに、動作の対象を置きます。",
+      "examples": [
+        { "zh": "我看书。", "pinyin": "Wǒ kàn shū.", "ja": "本を読む。" }
+      ]
+    },
+    {
+      "id": "attribute",
+      "group": "文の成分",
+      "title": "連体修飾",
+      "pinyin": "",
+      "ja": "名詞の前に、それを説明する語を置きます。",
+      "examples": [
+        { "zh": "两本书", "pinyin": "liǎng běn shū", "ja": "二冊の本" }
+      ]
+    },
+    {
+      "id": "adverbial",
+      "group": "文の成分",
+      "title": "連用修飾",
+      "pinyin": "",
+      "ja": "時、場所、程度は動詞の前に置きます。",
+      "examples": [
+        { "zh": "我今天去。", "pinyin": "Wǒ jīntiān qù.", "ja": "私は今日行く。" }
+      ]
+    },
+    {
+      "id": "complement",
+      "group": "文の成分",
+      "title": "回数の補語",
+      "pinyin": "",
+      "ja": "動詞のうしろに、何回したかを置きます。",
+      "examples": [
+        { "zh": "看一次", "pinyin": "kàn yí cì", "ja": "一回見る" }
+      ]
+    },
+    {
+      "id": "verbal-sentence",
+      "group": "文の型",
+      "title": "動詞の文",
+      "pinyin": "",
+      "ja": "主語のあとが動詞です。いちばん多い形です。",
+      "examples": [
+        { "zh": "我去学校。", "pinyin": "Wǒ qù xuéxiào.", "ja": "学校へ行く。" }
+      ]
+    },
+    {
+      "id": "adjectival-sentence",
+      "group": "文の型",
+      "title": "形容詞の文",
+      "pinyin": "",
+      "ja": "主語の状態を形容詞で言います。「是」は入れません。",
+      "examples": [
+        { "zh": "茶很好。", "pinyin": "Chá hěn hǎo.", "ja": "お茶はとてもよい。" }
+      ]
+    },
+    {
+      "id": "nominal-sentence",
+      "group": "文の型",
+      "title": "名詞の文",
+      "pinyin": "",
+      "ja": "主語のあとがそのまま名詞です。曜日や年齢で使います。",
+      "examples": [
+        { "zh": "今天星期一。", "pinyin": "Jīntiān xīngqīyī.", "ja": "今日は月曜日。" }
+      ]
+    },
+    {
+      "id": "no-subject",
+      "group": "文の型",
+      "title": "主語のない文",
+      "pinyin": "",
+      "ja": "天気や返事のように、主語を言わない文があります。",
+      "examples": [
+        { "zh": "下雨了。", "pinyin": "Xià yǔ le.", "ja": "雨が降り出した。" },
+        { "zh": "好。", "pinyin": "Hǎo.", "ja": "いいです。" }
+      ]
+    },
+    {
+      "id": "statement",
+      "group": "文の種類",
+      "title": "述べる文",
+      "pinyin": "",
+      "ja": "事実や考えを述べる、ふつうの文です。",
+      "examples": [
+        { "zh": "我是学生。", "pinyin": "Wǒ shì xuésheng.", "ja": "私は学生です。" }
+      ]
+    },
+    {
+      "id": "yes-no",
+      "group": "文の種類",
+      "title": "吗",
+      "pinyin": "ma",
+      "ja": "文の最後に「吗」を付けると、はい・いいえで答える質問になります。",
+      "examples": [
+        { "zh": "你忙吗？", "pinyin": "Nǐ máng ma?", "ja": "忙しいですか。" }
+      ]
+    },
+    {
+      "id": "wh-question",
+      "group": "文の種類",
+      "title": "疑問詞の質問",
+      "pinyin": "",
+      "ja": "何、誰、どこ、どのように、を文の中に入れます。語順は変えません。",
+      "examples": [
+        { "zh": "你叫什么？", "pinyin": "Nǐ jiào shénme?", "ja": "名前は何ですか。" }
+      ]
+    },
+    {
+      "id": "verb-not-verb",
+      "group": "文の種類",
+      "title": "動詞＋不＋動詞",
+      "pinyin": "",
+      "ja": "同じ動詞を「不」で挟むと、するかどうかの質問になります。",
+      "examples": [
+        { "zh": "你去不去？", "pinyin": "Nǐ qù bu qù?", "ja": "行く？行かない？" }
+      ]
+    },
+    {
+      "id": "imperative",
+      "group": "文の種類",
+      "title": "頼む文",
+      "pinyin": "",
+      "ja": "相手にしてほしいこと、またはしないでほしいことです。",
+      "examples": [
+        { "zh": "请坐。", "pinyin": "Qǐng zuò.", "ja": "どうぞ座ってください。" },
+        { "zh": "不要走。", "pinyin": "Búyào zǒu.", "ja": "行かないで。" }
+      ]
+    },
+    {
+      "id": "exclamation",
+      "group": "文の種類",
+      "title": "感嘆",
+      "pinyin": "",
+      "ja": "「太……了」で気持ちの強さを表します。",
+      "examples": [
+        { "zh": "太好了！", "pinyin": "Tài hǎo le!", "ja": "とてもよかった。" }
+      ]
+    },
+    {
+      "id": "shi",
+      "group": "特別な文",
+      "title": "是",
+      "pinyin": "shì",
+      "ja": "A は B だ、という同一や分類です。形容詞には使いません。",
+      "examples": [
+        { "zh": "我是学生。", "pinyin": "Wǒ shì xuésheng.", "ja": "私は学生です。" }
+      ]
+    },
+    {
+      "id": "you",
+      "group": "特別な文",
+      "title": "有",
+      "pinyin": "yǒu",
+      "ja": "持っている、または存在する、です。否定は「没有」です。",
+      "examples": [
+        { "zh": "我有一本书。", "pinyin": "Wǒ yǒu yì běn shū.", "ja": "本を一冊持っている。" }
+      ]
+    },
+    {
+      "id": "exist-shi",
+      "group": "特別な文",
+      "title": "場所＋是",
+      "pinyin": "",
+      "ja": "その場所にあるものが何であるかを言います。",
+      "examples": [
+        { "zh": "前面是商店。", "pinyin": "Qiánmiàn shì shāngdiàn.", "ja": "前は店です。" }
+      ]
+    },
+    {
+      "id": "exist-you",
+      "group": "特別な文",
+      "title": "場所＋有",
+      "pinyin": "",
+      "ja": "その場所に何かがある、と言います。",
+      "examples": [
+        { "zh": "桌子上有一杯茶。", "pinyin": "Zhuōzi shàng yǒu yì bēi chá.", "ja": "机の上にお茶が一杯ある。" }
+      ]
+    },
+    {
+      "id": "serial-purpose",
+      "group": "特別な文",
+      "title": "行って、する",
+      "pinyin": "",
+      "ja": "動詞を二つ続け、うしろの動作が目的です。",
+      "examples": [
+        { "zh": "我去商店买茶。", "pinyin": "Wǒ qù shāngdiàn mǎi chá.", "ja": "店へお茶を買いに行く。" }
+      ]
+    },
+    {
+      "id": "serial-manner",
+      "group": "特別な文",
+      "title": "手段＋動作",
+      "pinyin": "",
+      "ja": "前の動詞が、うしろの動作のやり方です。",
+      "examples": [
+        { "zh": "我坐车去。", "pinyin": "Wǒ zuò chē qù.", "ja": "車に乗って行く。" }
+      ]
+    },
+    {
+      "id": "double-object",
+      "group": "特別な文",
+      "title": "人＋物",
+      "pinyin": "",
+      "ja": "「給」のように、渡す相手と渡す物が両方うしろに来ます。",
+      "examples": [
+        { "zh": "我给你一本书。", "pinyin": "Wǒ gěi nǐ yì běn shū.", "ja": "本を一冊あげる。" }
+      ]
+    },
+    {
+      "id": "clause-plain",
+      "group": "複文",
+      "title": "接続詞なし",
+      "pinyin": "",
+      "ja": "二つの文を、接続詞なしで続けて並べられます。",
+      "examples": [
+        { "zh": "我喝茶，他看书。", "pinyin": "Wǒ hē chá, tā kàn shū.", "ja": "私はお茶を飲み、彼は本を読む。" }
+      ]
+    },
+    {
+      "id": "clause-ye",
+      "group": "複文",
+      "title": "……，也……",
+      "pinyin": "yě",
+      "ja": "うしろの文で「同じように」と受けます。",
+      "examples": [
+        { "zh": "你去，我也去。", "pinyin": "Nǐ qù, wǒ yě qù.", "ja": "あなたが行くなら、私も行く。" }
+      ]
+    },
+    {
+      "id": "clause-hai",
+      "group": "複文",
+      "title": "……，还……",
+      "pinyin": "hái",
+      "ja": "うしろの文で、さらに何かを付け加えます。",
+      "examples": [
+        { "zh": "我有书，还有茶。", "pinyin": "Wǒ yǒu shū, hái yǒu chá.", "ja": "本があり、お茶もある。" }
+      ]
+    },
+    {
+      "id": "aspect-done",
+      "group": "動作の態",
+      "title": "完了の了",
+      "pinyin": "le",
+      "ja": "動詞の直後の「了」は、その動作が終わったことを示します。",
+      "examples": [
+        { "zh": "我买了茶。", "pinyin": "Wǒ mǎi le chá.", "ja": "お茶を買った。" }
+      ]
+    },
+    {
+      "id": "aspect-change",
+      "group": "動作の態",
+      "title": "変化の了",
+      "pinyin": "le",
+      "ja": "文の最後の「了」は、新しい状態になったことを示します。",
+      "examples": [
+        { "zh": "下雨了。", "pinyin": "Xià yǔ le.", "ja": "雨が降り出した。" }
+      ]
+    },
+    {
+      "id": "aspect-progressive",
+      "group": "動作の態",
+      "title": "在 / 正在",
+      "pinyin": "zài / zhèngzài",
+      "ja": "今していることは、動詞の前に「在」か「正在」を置きます。",
+      "examples": [
+        { "zh": "我正在看书。", "pinyin": "Wǒ zhèngzài kàn shū.", "ja": "今、本を読んでいる。" }
+      ]
+    },
+    {
+      "id": "aspect-ne",
+      "group": "動作の態",
+      "title": "在……呢",
+      "pinyin": "ne",
+      "ja": "「在」と文末の「呢」をいっしょに使うと、今まさにしている感じが強くなります。",
+      "examples": [
+        { "zh": "我在看书呢。", "pinyin": "Wǒ zài kàn shū ne.", "ja": "本を読んでいるところだ。" }
+      ]
+    },
+    {
+      "id": "money",
+      "group": "言い方",
+      "title": "お金",
+      "pinyin": "kuài / yuán",
+      "ja": "金額は「数＋块」です。「元」も同じ意味です。",
+      "examples": [
+        { "zh": "十块", "pinyin": "shí kuài", "ja": "十元" },
+        { "zh": "三块五", "pinyin": "sān kuài wǔ", "ja": "三元五角" }
+      ]
+    },
+    {
+      "id": "ordinal",
+      "group": "言い方",
+      "title": "第＋数",
+      "pinyin": "dì",
+      "ja": "順番は「第」のあとに数を置きます。",
+      "examples": [
+        { "zh": "第一", "pinyin": "dì yī", "ja": "第一" },
+        { "zh": "第二个", "pinyin": "dì èr ge", "ja": "二つ目" }
+      ]
+    },
+    {
+      "id": "date",
+      "group": "言い方",
+      "title": "年月日、星期",
+      "pinyin": "",
+      "ja": "大きい単位から言います。年、月、日、そして曜日です。",
+      "examples": [
+        { "zh": "十月十九日", "pinyin": "shí yuè shíjiǔ rì", "ja": "十月十九日" },
+        { "zh": "星期一", "pinyin": "xīngqīyī", "ja": "月曜日" }
+      ]
+    },
+    {
+      "id": "clock",
+      "group": "言い方",
+      "title": "時刻",
+      "pinyin": "diǎn / fēn",
+      "ja": "「点」が時、「分」が分です。半は三十分です。",
+      "examples": [
+        { "zh": "三点十分", "pinyin": "sān diǎn shí fēn", "ja": "三時十分" },
+        { "zh": "两点半", "pinyin": "liǎng diǎn bàn", "ja": "二時半" }
+      ]
+    }
+  ]
+}
