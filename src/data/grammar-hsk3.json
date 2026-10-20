@@ -1,0 +1,1012 @@
+{
+  "attribution": "文法項目は HSK 3 の文法大綱に合わせ、説明と例文はこのアプリ用に書いています。",
+  "lessons": [
+    {
+      "id": "lao",
+      "group": "語素",
+      "title": "老—",
+      "pinyin": "lǎo",
+      "ja": "名前や呼び方の前の「老」は、親しみや年長を表します。",
+      "examples": [
+        {
+          "zh": "老王",
+          "pinyin": "Lǎo Wáng",
+          "ja": "王さん"
+        },
+        {
+          "zh": "老師",
+          "pinyin": "lǎoshī",
+          "ja": "先生"
+        }
+      ]
+    },
+    {
+      "id": "suffixes",
+      "group": "語素",
+      "title": "—家、—子、—員",
+      "pinyin": "",
+      "ja": "「家」は人の専門、「子」は物の名前、「員」はその役目の人です。",
+      "examples": [
+        {
+          "zh": "畫家",
+          "pinyin": "huàjiā",
+          "ja": "画家"
+        },
+        {
+          "zh": "運動員",
+          "pinyin": "yùndòngyuán",
+          "ja": "選手"
+        }
+      ]
+    },
+    {
+      "id": "directions",
+      "group": "名詞",
+      "title": "東西南北",
+      "pinyin": "",
+      "ja": "東、南、西、北で方向を言います。「中間」は真ん中です。",
+      "examples": [
+        {
+          "zh": "往東走",
+          "pinyin": "wǎng dōng zǒu",
+          "ja": "東へ歩く"
+        },
+        {
+          "zh": "在中間",
+          "pinyin": "zài zhōngjiān",
+          "ja": "真ん中にある"
+        }
+      ]
+    },
+    {
+      "id": "modals",
+      "group": "動詞",
+      "title": "應該、願意",
+      "pinyin": "",
+      "ja": "「應該」はすべき、「願意」はする気がある、「需要」は必要、「得」はしなければならない、です。",
+      "examples": [
+        {
+          "zh": "你應該休息",
+          "pinyin": "nǐ yīnggāi xiūxi",
+          "ja": "休むべきだ"
+        },
+        {
+          "zh": "我得走了",
+          "pinyin": "wǒ děi zǒu le",
+          "ja": "もう行かなければならない"
+        }
+      ]
+    },
+    {
+      "id": "separable",
+      "group": "動詞",
+      "title": "離合詞",
+      "pinyin": "",
+      "ja": "「見面」「結婚」「洗澡」のように、間に別の語を入れられる動詞です。",
+      "examples": [
+        {
+          "zh": "見個面",
+          "pinyin": "jiàn ge miàn",
+          "ja": "ちょっと会う"
+        },
+        {
+          "zh": "洗了個澡",
+          "pinyin": "xǐ le ge zǎo",
+          "ja": "シャワーを浴びた"
+        }
+      ]
+    },
+    {
+      "id": "zenyang",
+      "group": "代詞",
+      "title": "怎樣",
+      "pinyin": "zěnyàng",
+      "ja": "やり方や様子を聞きます。動詞の前に置くと、どうする、です。",
+      "examples": [
+        {
+          "zh": "怎樣去？",
+          "pinyin": "zěnyàng qù?",
+          "ja": "どうやって行く？"
+        },
+        {
+          "zh": "你怎樣想？",
+          "pinyin": "nǐ zěnyàng xiǎng?",
+          "ja": "どう思う？"
+        }
+      ]
+    },
+    {
+      "id": "wh-every",
+      "group": "代詞",
+      "title": "だれでも",
+      "pinyin": "",
+      "ja": "疑問詞に「都」を付けると、だれでも、どれも、になります。二つ重ねると、だれがだれを、です。",
+      "examples": [
+        {
+          "zh": "誰都知道",
+          "pinyin": "shéi dōu zhīdào",
+          "ja": "だれでも知っている"
+        },
+        {
+          "zh": "誰認識誰",
+          "pinyin": "shéi rènshi shéi",
+          "ja": "だれがだれを知っているか"
+        }
+      ]
+    },
+    {
+      "id": "wh-some",
+      "group": "代詞",
+      "title": "だれか",
+      "pinyin": "",
+      "ja": "疑問詞が、特定しない「だれか」「なにか」になることがあります。",
+      "examples": [
+        {
+          "zh": "我想吃點兒什麼",
+          "pinyin": "wǒ xiǎng chī diǎnr shénme",
+          "ja": "何か食べたい"
+        },
+        {
+          "zh": "你找個人幫忙",
+          "pinyin": "nǐ zhǎo ge rén bāngmáng",
+          "ja": "だれか手伝ってくれる人を探す"
+        }
+      ]
+    },
+    {
+      "id": "others",
+      "group": "代詞",
+      "title": "別人、咱們",
+      "pinyin": "",
+      "ja": "「別人」はほかの人です。「咱們」は、聞き手を含めた私たちです。",
+      "examples": [
+        {
+          "zh": "別的人",
+          "pinyin": "biéde rén",
+          "ja": "ほかの人"
+        },
+        {
+          "zh": "咱們走吧",
+          "pinyin": "zánmen zǒu ba",
+          "ja": "さあ行こう"
+        }
+      ]
+    },
+    {
+      "id": "measures",
+      "group": "量詞",
+      "title": "張、輛、層",
+      "pinyin": "",
+      "ja": "物の形に合う助数詞を選びます。紙は「張」、車は「輛」、階は「層」です。",
+      "examples": [
+        {
+          "zh": "一張紙",
+          "pinyin": "yì zhāng zhǐ",
+          "ja": "紙一枚"
+        },
+        {
+          "zh": "三層",
+          "pinyin": "sān céng",
+          "ja": "三階"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "group": "量詞",
+      "title": "斤、公斤、米",
+      "pinyin": "",
+      "ja": "重さは「斤」や「公斤」、長さは「米」、お金の端数は「角」や「毛」です。",
+      "examples": [
+        {
+          "zh": "一公斤",
+          "pinyin": "yì gōngjīn",
+          "ja": "一キロ"
+        },
+        {
+          "zh": "兩塊五毛",
+          "pinyin": "liǎng kuài wǔ máo",
+          "ja": "二元五毛"
+        }
+      ]
+    },
+    {
+      "id": "verb-times",
+      "group": "量詞",
+      "title": "遍、聲",
+      "pinyin": "",
+      "ja": "「遍」は最初から最後まで一通り、「聲」は声の一回です。",
+      "examples": [
+        {
+          "zh": "再說一遍",
+          "pinyin": "zài shuō yí biàn",
+          "ja": "もう一度言う"
+        },
+        {
+          "zh": "叫了一聲",
+          "pinyin": "jiào le yì shēng",
+          "ja": "一声呼んだ"
+        }
+      ]
+    },
+    {
+      "id": "measure-redup",
+      "group": "量詞",
+      "title": "個個",
+      "pinyin": "",
+      "ja": "助数詞を重ねると、一つひとつ、どれも、になります。",
+      "examples": [
+        {
+          "zh": "個個都忙",
+          "pinyin": "gège dōu máng",
+          "ja": "一人ひとり忙しい"
+        },
+        {
+          "zh": "張張都好看",
+          "pinyin": "zhāngzhāng dōu hǎokàn",
+          "ja": "どの枚もきれい"
+        }
+      ]
+    },
+    {
+      "id": "degree",
+      "group": "副詞",
+      "title": "更、挺、極",
+      "pinyin": "",
+      "ja": "「更」はもっと、「挺」はなかなか、「特別」はとりわけ、「極」は極めて、です。",
+      "examples": [
+        {
+          "zh": "今天更冷",
+          "pinyin": "jīntiān gèng lěng",
+          "ja": "今日はもっと寒い"
+        },
+        {
+          "zh": "挺好看",
+          "pinyin": "tǐng hǎokàn",
+          "ja": "なかなかきれい"
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "group": "副詞",
+      "title": "只、一共",
+      "pinyin": "",
+      "ja": "「只」はただそれだけ、「一共」は全部で、「到處」はどこも、です。",
+      "examples": [
+        {
+          "zh": "我只有十塊",
+          "pinyin": "wǒ zhǐ yǒu shí kuài",
+          "ja": "十元しかない"
+        },
+        {
+          "zh": "一共三個人",
+          "pinyin": "yígòng sān ge rén",
+          "ja": "全部で三人"
+        }
+      ]
+    },
+    {
+      "id": "time-adv",
+      "group": "副詞",
+      "title": "剛、馬上、一直",
+      "pinyin": "",
+      "ja": "「剛」はさっき、「馬上」はすぐに、「先」は先に、「一直」はずっと、です。",
+      "examples": [
+        {
+          "zh": "他剛走",
+          "pinyin": "tā gāng zǒu",
+          "ja": "彼はたった今行った"
+        },
+        {
+          "zh": "一直在下雨",
+          "pinyin": "yìzhí zài xià yǔ",
+          "ja": "ずっと雨が降っている"
+        }
+      ]
+    },
+    {
+      "id": "again",
+      "group": "副詞",
+      "title": "又、常常、總是",
+      "pinyin": "",
+      "ja": "「又」はまた起きたこと、「常常」はよく、「總是」はいつも、です。",
+      "examples": [
+        {
+          "zh": "又遲到了",
+          "pinyin": "yòu chídào le",
+          "ja": "また遅れた"
+        },
+        {
+          "zh": "他總是很忙",
+          "pinyin": "tā zǒngshì hěn máng",
+          "ja": "彼はいつも忙しい"
+        }
+      ]
+    },
+    {
+      "id": "mood",
+      "group": "副詞",
+      "title": "一定、幾乎",
+      "pinyin": "",
+      "ja": "「一定」はきっと、「差不多」と「幾乎」はほとんど、「好像」は〜のよう、「大概」はたぶん、です。",
+      "examples": [
+        {
+          "zh": "我一定去",
+          "pinyin": "wǒ yídìng qù",
+          "ja": "きっと行く"
+        },
+        {
+          "zh": "差不多完了",
+          "pinyin": "chàbuduō wán le",
+          "ja": "ほとんど終わった"
+        }
+      ]
+    },
+    {
+      "id": "tone-adv",
+      "group": "副詞",
+      "title": "當然、其實、終於",
+      "pinyin": "",
+      "ja": "「當然」はもちろん、「其實」は実は、「終於」はついに、です。",
+      "examples": [
+        {
+          "zh": "當然可以",
+          "pinyin": "dāngrán kěyǐ",
+          "ja": "もちろんいい"
+        },
+        {
+          "zh": "終於到了",
+          "pinyin": "zhōngyú dào le",
+          "ja": "ついに着いた"
+        }
+      ]
+    },
+    {
+      "id": "buyong",
+      "group": "副詞",
+      "title": "不用",
+      "pinyin": "búyòng",
+      "ja": "しなくていい、です。「不必」も同じように使います。",
+      "examples": [
+        {
+          "zh": "不用擔心",
+          "pinyin": "búyòng dānxīn",
+          "ja": "心配しなくていい"
+        },
+        {
+          "zh": "你不用去",
+          "pinyin": "nǐ búyòng qù",
+          "ja": "行かなくていい"
+        }
+      ]
+    },
+    {
+      "id": "wei-xiang",
+      "group": "介詞",
+      "title": "為、向、關於",
+      "pinyin": "",
+      "ja": "「為」は誰かのために、「向」は向かう相手や方向、「關於」は話題です。",
+      "examples": [
+        {
+          "zh": "為我高興",
+          "pinyin": "wèi wǒ gāoxìng",
+          "ja": "私のために喜ぶ"
+        },
+        {
+          "zh": "關於這件事",
+          "pinyin": "guānyú zhè jiàn shì",
+          "ja": "この件について"
+        }
+      ]
+    },
+    {
+      "id": "weile",
+      "group": "介詞",
+      "title": "為了",
+      "pinyin": "wèile",
+      "ja": "目的です。そのために、と文の前に置きます。",
+      "examples": [
+        {
+          "zh": "為了健康，他天天運動",
+          "pinyin": "wèile jiànkāng, tā tiāntiān yùndòng",
+          "ja": "健康のために、彼は毎日運動する"
+        },
+        {
+          "zh": "為了你",
+          "pinyin": "wèile nǐ",
+          "ja": "君のために"
+        }
+      ]
+    },
+    {
+      "id": "ba",
+      "group": "介詞",
+      "title": "把",
+      "pinyin": "bǎ",
+      "ja": "何をどうするかを、動詞の前に出します。置き場所や結果と一緒に使うことが多いです。",
+      "examples": [
+        {
+          "zh": "把書放在桌上",
+          "pinyin": "bǎ shū fàng zài zhuō shang",
+          "ja": "本を机の上に置く"
+        },
+        {
+          "zh": "把門打開",
+          "pinyin": "bǎ mén dǎkāi",
+          "ja": "ドアを開ける"
+        }
+      ]
+    },
+    {
+      "id": "bei",
+      "group": "介詞",
+      "title": "被",
+      "pinyin": "bèi",
+      "ja": "受け身です。誰にされたかを「被」のあとに言います。行為者を省くこともあります。",
+      "examples": [
+        {
+          "zh": "書被他拿走了",
+          "pinyin": "shū bèi tā ná zǒu le",
+          "ja": "本は彼に持っていかれた"
+        },
+        {
+          "zh": "杯子被打破了",
+          "pinyin": "bēizi bèi dǎ pò le",
+          "ja": "コップは割られた"
+        }
+      ]
+    },
+    {
+      "id": "genju",
+      "group": "介詞",
+      "title": "根據",
+      "pinyin": "gēnjù",
+      "ja": "よりどころです。それに基づいて、と前に置きます。",
+      "examples": [
+        {
+          "zh": "根據地圖走",
+          "pinyin": "gēnjù dìtú zǒu",
+          "ja": "地図に従って歩く"
+        },
+        {
+          "zh": "根據這個辦法",
+          "pinyin": "gēnjù zhège bànfǎ",
+          "ja": "このやり方に基づいて"
+        }
+      ]
+    },
+    {
+      "id": "huozhe",
+      "group": "接続",
+      "title": "或者",
+      "pinyin": "huòzhě",
+      "ja": "または、です。文と文をつなぐと、あるいは〜あるいは〜、になります。",
+      "examples": [
+        {
+          "zh": "茶或者咖啡",
+          "pinyin": "chá huòzhě kāfēi",
+          "ja": "お茶かコーヒー"
+        },
+        {
+          "zh": "或者你去，或者我去",
+          "pinyin": "huòzhě nǐ qù, huòzhě wǒ qù",
+          "ja": "君が行くか、私が行くか"
+        }
+      ]
+    },
+    {
+      "id": "budan",
+      "group": "接続",
+      "title": "不但……而且",
+      "pinyin": "",
+      "ja": "〜だけでなく、さらに、です。",
+      "examples": [
+        {
+          "zh": "不但便宜，而且好吃",
+          "pinyin": "búdàn piányi, érqiě hǎochī",
+          "ja": "安いだけでなく、おいしい"
+        },
+        {
+          "zh": "他不但會說，而且會寫",
+          "pinyin": "tā búdàn huì shuō, érqiě huì xiě",
+          "ja": "話せるだけでなく、書ける"
+        }
+      ]
+    },
+    {
+      "id": "ruguo",
+      "group": "接続",
+      "title": "如果、的話",
+      "pinyin": "",
+      "ja": "仮定です。「如果……，就……」。文末の「的話」でももし、と言えます。",
+      "examples": [
+        {
+          "zh": "如果下雨，我就不去",
+          "pinyin": "rúguǒ xià yǔ, wǒ jiù bú qù",
+          "ja": "雨なら行かない"
+        },
+        {
+          "zh": "有時間的話，來看看",
+          "pinyin": "yǒu shíjiān dehuà, lái kànkan",
+          "ja": "時間があれば、ちょっと来て"
+        }
+      ]
+    },
+    {
+      "id": "zhiyao",
+      "group": "接続",
+      "title": "只要、只有",
+      "pinyin": "",
+      "ja": "「只要……就……」は〜しさえすれば。「只有……才……」は〜してこそ、です。",
+      "examples": [
+        {
+          "zh": "只要努力，就能學好",
+          "pinyin": "zhǐyào nǔlì, jiù néng xué hǎo",
+          "ja": "努力しさえすれば、うまく学べる"
+        },
+        {
+          "zh": "只有你去，他才高興",
+          "pinyin": "zhǐyǒu nǐ qù, tā cái gāoxìng",
+          "ja": "君が行ってこそ、彼は喜ぶ"
+        }
+      ]
+    },
+    {
+      "id": "ranhou",
+      "group": "接続",
+      "title": "先……然後",
+      "pinyin": "",
+      "ja": "順番です。先に、それから。「可是」はしかし、です。",
+      "examples": [
+        {
+          "zh": "先吃飯，然後去",
+          "pinyin": "xiān chī fàn, ránhòu qù",
+          "ja": "先に食べて、それから行く"
+        },
+        {
+          "zh": "雖然遠，可是很安靜",
+          "pinyin": "suīrán yuǎn, kěshì hěn ānjìng",
+          "ja": "遠いけど、とても静か"
+        }
+      ]
+    },
+    {
+      "id": "yibian",
+      "group": "接続",
+      "title": "一邊……一邊",
+      "pinyin": "yìbiān",
+      "ja": "二つの動作を同時にします。「又……又……」は、どちらもそうだ、です。",
+      "examples": [
+        {
+          "zh": "一邊走一邊說",
+          "pinyin": "yìbiān zǒu yìbiān shuō",
+          "ja": "歩きながら話す"
+        },
+        {
+          "zh": "又高又瘦",
+          "pinyin": "yòu gāo yòu shòu",
+          "ja": "背が高くてやせている"
+        }
+      ]
+    },
+    {
+      "id": "apposition",
+      "group": "フレーズ",
+      "title": "同じものを並べる",
+      "pinyin": "",
+      "ja": "人や場所を、別の言い方で直後に重ねて説明できます。",
+      "examples": [
+        {
+          "zh": "我朋友小王",
+          "pinyin": "wǒ péngyou Xiǎo Wáng",
+          "ja": "友達の王さん"
+        },
+        {
+          "zh": "我們兩個人",
+          "pinyin": "wǒmen liǎng ge rén",
+          "ja": "私たち二人"
+        }
+      ]
+    },
+    {
+      "id": "number-redup",
+      "group": "フレーズ",
+      "title": "一個一個",
+      "pinyin": "",
+      "ja": "数と助数詞を重ねると、一つずつ、です。",
+      "examples": [
+        {
+          "zh": "一個一個地看",
+          "pinyin": "yí ge yí ge de kàn",
+          "ja": "一つずつ見る"
+        },
+        {
+          "zh": "一步一步走",
+          "pinyin": "yí bù yí bù zǒu",
+          "ja": "一歩ずつ歩く"
+        }
+      ]
+    },
+    {
+      "id": "fixed-words",
+      "group": "フレーズ",
+      "title": "越來越",
+      "pinyin": "",
+      "ja": "「越來越」はだんだん。「看起來」は見たところ。「一般來說」はふつうは、です。",
+      "examples": [
+        {
+          "zh": "越來越好",
+          "pinyin": "yuèláiyuè hǎo",
+          "ja": "だんだんよくなる"
+        },
+        {
+          "zh": "看起來很簡單",
+          "pinyin": "kàn qǐlái hěn jiǎndān",
+          "ja": "見たところ簡単そう"
+        }
+      ]
+    },
+    {
+      "id": "chule",
+      "group": "言い方",
+      "title": "除了",
+      "pinyin": "chúle",
+      "ja": "〜以外は、です。あとに「還」や「都」を置いて、ほかもある、または全部そうだ、と言います。",
+      "examples": [
+        {
+          "zh": "除了茶，還有咖啡",
+          "pinyin": "chúle chá, hái yǒu kāfēi",
+          "ja": "お茶のほかにコーヒーもある"
+        },
+        {
+          "zh": "除了他，我們都去",
+          "pinyin": "chúle tā, wǒmen dōu qù",
+          "ja": "彼以外はみんな行く"
+        }
+      ]
+    },
+    {
+      "id": "cong-qi",
+      "group": "言い方",
+      "title": "從……起",
+      "pinyin": "",
+      "ja": "いつから、どこから。相手にとって、は「對……來說」です。",
+      "examples": [
+        {
+          "zh": "從明天起",
+          "pinyin": "cóng míngtiān qǐ",
+          "ja": "明日から"
+        },
+        {
+          "zh": "對我來說很難",
+          "pinyin": "duì wǒ lái shuō hěn nán",
+          "ja": "私にとっては難しい"
+        }
+      ]
+    },
+    {
+      "id": "yi-ye-bu",
+      "group": "言い方",
+      "title": "一つも〜ない",
+      "pinyin": "",
+      "ja": "「一……也/都+不/沒」で、まったくない、一つもない、と言います。",
+      "examples": [
+        {
+          "zh": "我一個也不認識",
+          "pinyin": "wǒ yí ge yě bú rènshi",
+          "ja": "一人も知らない"
+        },
+        {
+          "zh": "一點兒也不難",
+          "pinyin": "yìdiǎnr yě bù nán",
+          "ja": "ちっとも難しくない"
+        }
+      ]
+    },
+    {
+      "id": "yue-yue",
+      "group": "言い方",
+      "title": "越……越……",
+      "pinyin": "yuè",
+      "ja": "〜すればするほど、です。",
+      "examples": [
+        {
+          "zh": "越說越快",
+          "pinyin": "yuè shuō yuè kuài",
+          "ja": "話すほど速くなる"
+        },
+        {
+          "zh": "越忙越高興",
+          "pinyin": "yuè máng yuè gāoxìng",
+          "ja": "忙しいほど嬉しい"
+        }
+      ]
+    },
+    {
+      "id": "before-after",
+      "group": "言い方",
+      "title": "以前、以後",
+      "pinyin": "",
+      "ja": "時点の前とあとです。「在……上/下/中」は、その面で、その状況で、です。",
+      "examples": [
+        {
+          "zh": "吃飯以前洗手",
+          "pinyin": "chī fàn yǐqián xǐ shǒu",
+          "ja": "食事の前に手を洗う"
+        },
+        {
+          "zh": "在生活中",
+          "pinyin": "zài shēnghuó zhōng",
+          "ja": "生活の中で"
+        }
+      ]
+    },
+    {
+      "id": "result-2",
+      "group": "補語",
+      "title": "到、住",
+      "pinyin": "",
+      "ja": "動詞のあとで結果を言います。「到」は到達、「住」はしっかり留まる、です。",
+      "examples": [
+        {
+          "zh": "聽到了",
+          "pinyin": "tīng dào le",
+          "ja": "聞こえた"
+        },
+        {
+          "zh": "記住這個詞",
+          "pinyin": "jì zhù zhège cí",
+          "ja": "この単語を覚えておく"
+        }
+      ]
+    },
+    {
+      "id": "direction-extend",
+      "group": "補語",
+      "title": "起來、下去",
+      "pinyin": "",
+      "ja": "方向の補語が、始まりや続きを表すことがあります。「起來」はし始める、「下去」は続けていく、です。",
+      "examples": [
+        {
+          "zh": "哭起來了",
+          "pinyin": "kū qǐlái le",
+          "ja": "泣き出した"
+        },
+        {
+          "zh": "說下去",
+          "pinyin": "shuō xiàqù",
+          "ja": "話し続ける"
+        }
+      ]
+    },
+    {
+      "id": "potential",
+      "group": "補語",
+      "title": "可能補語",
+      "pinyin": "",
+      "ja": "できるかどうかは、動詞と結果の間に「得」か「不」を入れます。",
+      "examples": [
+        {
+          "zh": "聽得懂",
+          "pinyin": "tīng de dǒng",
+          "ja": "聞いてわかる"
+        },
+        {
+          "zh": "找不到",
+          "pinyin": "zhǎo bu dào",
+          "ja": "見つけられない"
+        }
+      ]
+    },
+    {
+      "id": "degree-comp",
+      "group": "補語",
+      "title": "得很、極了",
+      "pinyin": "",
+      "ja": "程度が強いとき、「得很」や「極了」を後ろに付けます。",
+      "examples": [
+        {
+          "zh": "好得很",
+          "pinyin": "hǎo de hěn",
+          "ja": "とてもいい"
+        },
+        {
+          "zh": "忙極了",
+          "pinyin": "máng jí le",
+          "ja": "極めて忙しい"
+        }
+      ]
+    },
+    {
+      "id": "ba-patterns",
+      "group": "特別な文",
+      "title": "把の文",
+      "pinyin": "bǎ",
+      "ja": "物をどこへ置くか、誰に渡すか、どうし終えるかを「把」で言います。",
+      "examples": [
+        {
+          "zh": "把禮物送給他",
+          "pinyin": "bǎ lǐwù sòng gěi tā",
+          "ja": "贈り物を彼に渡す"
+        },
+        {
+          "zh": "把作業做完",
+          "pinyin": "bǎ zuòyè zuò wán",
+          "ja": "宿題をやり終える"
+        }
+      ]
+    },
+    {
+      "id": "passive",
+      "group": "特別な文",
+      "title": "被の文",
+      "pinyin": "bèi",
+      "ja": "主語が動作を受けます。した人は「被」のあと、省くこともあります。",
+      "examples": [
+        {
+          "zh": "我的包被拿走了",
+          "pinyin": "wǒ de bāo bèi ná zǒu le",
+          "ja": "かばんを持っていかれた"
+        },
+        {
+          "zh": "門被打開了",
+          "pinyin": "mén bèi dǎkāi le",
+          "ja": "ドアが開けられた"
+        }
+      ]
+    },
+    {
+      "id": "zhe-action",
+      "group": "特別な文",
+      "title": "〜しながら",
+      "pinyin": "zhe",
+      "ja": "先の動作の様子のまま、次の動作をします。",
+      "examples": [
+        {
+          "zh": "笑著說",
+          "pinyin": "xiào zhe shuō",
+          "ja": "笑いながら言う"
+        },
+        {
+          "zh": "坐著吃飯",
+          "pinyin": "zuò zhe chī fàn",
+          "ja": "座って食べる"
+        }
+      ]
+    },
+    {
+      "id": "compare-2",
+      "group": "特別な文",
+      "title": "一樣、不比",
+      "pinyin": "",
+      "ja": "同じなら「跟……一樣」。負けていないなら「不比」。差の数は「比」のあとに置けます。",
+      "examples": [
+        {
+          "zh": "跟你一樣高",
+          "pinyin": "gēn nǐ yíyàng gāo",
+          "ja": "君と同じくらい背が高い"
+        },
+        {
+          "zh": "他比我多學一年",
+          "pinyin": "tā bǐ wǒ duō xué yì nián",
+          "ja": "彼は私より一年長く学んでいる"
+        }
+      ]
+    },
+    {
+      "id": "appear",
+      "group": "特別な文",
+      "title": "現れる、なくなる",
+      "pinyin": "",
+      "ja": "場所を先に言い、そこに現れたもの、またはなくなったものを後ろに置きます。",
+      "examples": [
+        {
+          "zh": "前面來了一個人",
+          "pinyin": "qiánmiàn lái le yí ge rén",
+          "ja": "前から人が一人来た"
+        },
+        {
+          "zh": "家裡走了一隻貓",
+          "pinyin": "jiā lǐ zǒu le yì zhī māo",
+          "ja": "家から猫が一匹いなくなった"
+        }
+      ]
+    },
+    {
+      "id": "shi-de-view",
+      "group": "特別な文",
+      "title": "是……的",
+      "pinyin": "",
+      "ja": "自分の見方や態度を強調するときにも使います。",
+      "examples": [
+        {
+          "zh": "我是願意幫你的",
+          "pinyin": "wǒ shì yuànyì bāng nǐ de",
+          "ja": "手伝うつもりではある"
+        },
+        {
+          "zh": "這件事是應該做的",
+          "pinyin": "zhè jiàn shì shì yīnggāi zuò de",
+          "ja": "これはやるべきことだ"
+        }
+      ]
+    },
+    {
+      "id": "verb-copy",
+      "group": "特別な文",
+      "title": "動詞を重ねる文",
+      "pinyin": "",
+      "ja": "目的語があるとき、結果は動詞をもう一度言ってから付けます。",
+      "examples": [
+        {
+          "zh": "看書看得很晚",
+          "pinyin": "kàn shū kàn de hěn wǎn",
+          "ja": "本をとても遅くまで読む"
+        },
+        {
+          "zh": "吃飯吃完了",
+          "pinyin": "chī fàn chī wán le",
+          "ja": "食事を食べ終えた"
+        }
+      ]
+    },
+    {
+      "id": "rhetorical",
+      "group": "文の種類",
+      "title": "不是……嗎",
+      "pinyin": "",
+      "ja": "疑問の形で、そうだろう、と強調します。",
+      "examples": [
+        {
+          "zh": "你不是知道嗎？",
+          "pinyin": "nǐ bú shì zhīdào ma?",
+          "ja": "知っているでしょう？"
+        },
+        {
+          "zh": "這不是很容易嗎？",
+          "pinyin": "zhè bú shì hěn róngyì ma?",
+          "ja": "これはとても簡単でしょう？"
+        }
+      ]
+    },
+    {
+      "id": "interval",
+      "group": "補語",
+      "title": "間の時間",
+      "pinyin": "",
+      "ja": "動作が終わってから、今までどれだけたったかを後ろに言います。",
+      "examples": [
+        {
+          "zh": "他來了三天了",
+          "pinyin": "tā lái le sān tiān le",
+          "ja": "彼が来てから三日になる"
+        },
+        {
+          "zh": "我學了兩年了",
+          "pinyin": "wǒ xué le liǎng nián le",
+          "ja": "学び始めて二年になる"
+        }
+      ]
+    },
+    {
+      "id": "approx",
+      "group": "言い方",
+      "title": "だいたいの数",
+      "pinyin": "",
+      "ja": "「大概」でおよそ、隣り合う数を並べて二、三、のように言います。",
+      "examples": [
+        {
+          "zh": "大概十個人",
+          "pinyin": "dàgài shí ge rén",
+          "ja": "およそ十人"
+        },
+        {
+          "zh": "兩三天",
+          "pinyin": "liǎng sān tiān",
+          "ja": "二、三日"
+        }
+      ]
+    }
+  ]
+}

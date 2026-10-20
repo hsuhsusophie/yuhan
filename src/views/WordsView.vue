@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 import { RouterLink } from 'vue-router'
-import { dailyWords, level, markWord, marks, words } from '@/data/study'
+import { dailyWords, level, markWord, marks, speechText, words } from '@/data/study'
 
 const index = ref(0)
 const revealed = ref(false)
@@ -42,7 +42,7 @@ const tonePath: Record<number, string> = {
 }
 
 function speak(hanzi: string) {
-  const utterance = new SpeechSynthesisUtterance(hanzi)
+  const utterance = new SpeechSynthesisUtterance(speechText(hanzi))
   utterance.lang = 'zh-CN'
   utterance.rate = 0.85
   const voices = speechSynthesis.getVoices()

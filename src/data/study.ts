@@ -1,6 +1,8 @@
 import { computed, ref, watch } from 'vue'
 import hsk1 from './hsk1.json'
 import hsk2 from './hsk2.json'
+import hsk3 from './hsk3.json'
+import traditionalHanzi from './hanzi-traditional.json'
 
 export interface Word {
   hanzi: string
@@ -9,12 +11,13 @@ export interface Word {
   ja: string
 }
 
-export const levelChoices = [1, 2] as const
+export const levelChoices = [1, 2, 3] as const
 export type Level = (typeof levelChoices)[number]
 
 const catalogs: Record<Level, Word[]> = {
   1: hsk1.words as Word[],
   2: hsk2.words as Word[],
+  3: hsk3.words as Word[],
 }
 export const attribution = hsk1.attribution
 
@@ -64,11 +67,36 @@ function today(): string {
   return formatDate(new Date())
 }
 
+const hanziTraditional = traditionalHanzi as Record<string, string>
+const speechByTraditional = new Map<string, string>()
+const speechByCharacter = new Map<string, string>()
+for (const [simplified, traditional] of Object.entries(hanziTraditional)) {
+  speechByTraditional.set(traditional, simplified)
+  const from = [...simplified]
+  const to = [...traditional]
+  if (from.length !== to.length) continue
+  for (let index = 0; index < from.length; index += 1) {
+    const source = from[index]
+    const target = to[index]
+    if (source && target && source !== target) speechByCharacter.set(target, source)
+  }
+}
+
+export function speechText(hanzi: string): string {
+  const whole = speechByTraditional.get(hanzi)
+  if (whole) return whole
+  return [...hanzi].map((character) => speechByCharacter.get(character) ?? character).join('')
+}
+
 function loadMarks(): Mark[] {
   try {
     const raw = localStorage.getItem(storageKey)
     const parsed: unknown = raw ? JSON.parse(raw) : []
-    return Array.isArray(parsed) ? (parsed as Mark[]) : []
+    if (!Array.isArray(parsed)) return []
+    return (parsed as Mark[]).map((mark) => ({
+      ...mark,
+      hanzi: hanziTraditional[mark.hanzi] ?? mark.hanzi,
+    }))
   } catch {
     return []
   }

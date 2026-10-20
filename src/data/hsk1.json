@@ -2,7 +2,7 @@
   "attribution": "語彙・ピンインは HearMandarin の HSK 3.0 詞表（CC BY 4.0）。https://hearmandarin.com",
   "words": [
     {
-      "hanzi": "爱",
+      "hanzi": "愛",
       "pinyin": "ài",
       "tones": [
         4
@@ -82,7 +82,7 @@
       "ja": "本を数える助数詞"
     },
     {
-      "hanzi": "边",
+      "hanzi": "邊",
       "pinyin": "biān",
       "tones": [
         1
@@ -106,7 +106,7 @@
       "ja": "〜ない"
     },
     {
-      "hanzi": "不客气",
+      "hanzi": "不客氣",
       "pinyin": "bú kèqi",
       "tones": [
         2,
@@ -155,7 +155,7 @@
       "ja": "スーパー"
     },
     {
-      "hanzi": "车",
+      "hanzi": "車",
       "pinyin": "chē",
       "tones": [
         1
@@ -171,7 +171,7 @@
       "ja": "食べる"
     },
     {
-      "hanzi": "计程车",
+      "hanzi": "計程車",
       "pinyin": "jìchéngchē",
       "tones": [
         1
@@ -187,7 +187,7 @@
       "ja": "着る"
     },
     {
-      "hanzi": "打电话",
+      "hanzi": "打電話",
       "pinyin": "dǎ diànhuà",
       "tones": [
         3,
@@ -212,7 +212,7 @@
       "ja": "みんな"
     },
     {
-      "hanzi": "大学",
+      "hanzi": "大學",
       "pinyin": "dàxué",
       "tones": [
         4
@@ -220,7 +220,7 @@
       "ja": "大学"
     },
     {
-      "hanzi": "大学生",
+      "hanzi": "大學生",
       "pinyin": "dàxuéshēng",
       "tones": [
         4
@@ -260,7 +260,7 @@
       "ja": "弟"
     },
     {
-      "hanzi": "点",
+      "hanzi": "點",
       "pinyin": "diǎn",
       "tones": [
         3
@@ -276,7 +276,7 @@
       "ja": "店"
     },
     {
-      "hanzi": "电话",
+      "hanzi": "電話",
       "pinyin": "diànhuà",
       "tones": [
         4
@@ -284,7 +284,7 @@
       "ja": "電話"
     },
     {
-      "hanzi": "电脑",
+      "hanzi": "電腦",
       "pinyin": "diànnǎo",
       "tones": [
         4
@@ -292,7 +292,7 @@
       "ja": "パソコン"
     },
     {
-      "hanzi": "电视",
+      "hanzi": "電視",
       "pinyin": "diànshì",
       "tones": [
         4
@@ -300,7 +300,7 @@
       "ja": "テレビ"
     },
     {
-      "hanzi": "电影",
+      "hanzi": "電影",
       "pinyin": "diànyǐng",
       "tones": [
         4
@@ -308,7 +308,7 @@
       "ja": "映画"
     },
     {
-      "hanzi": "电影院",
+      "hanzi": "電影院",
       "pinyin": "diànyǐngyuàn",
       "tones": [
         4
@@ -316,7 +316,7 @@
       "ja": "映画館"
     },
     {
-      "hanzi": "东西",
+      "hanzi": "東西",
       "pinyin": "dōngxi",
       "tones": [
         1
@@ -332,7 +332,7 @@
       "ja": "みな"
     },
     {
-      "hanzi": "读",
+      "hanzi": "讀",
       "pinyin": "dú",
       "tones": [
         2
@@ -340,7 +340,7 @@
       "ja": "読む"
     },
     {
-      "hanzi": "读书",
+      "hanzi": "讀書",
       "pinyin": "dúshū",
       "tones": [
         2
@@ -348,7 +348,7 @@
       "ja": "本を読む、勉強する"
     },
     {
-      "hanzi": "对",
+      "hanzi": "對",
       "pinyin": "duì",
       "tones": [
         4
@@ -356,7 +356,7 @@
       "ja": "正しい"
     },
     {
-      "hanzi": "对不起",
+      "hanzi": "對不起",
       "pinyin": "duìbuqǐ",
       "tones": [
         4
@@ -380,7 +380,7 @@
       "ja": "いくら、いくつ"
     },
     {
-      "hanzi": "儿子",
+      "hanzi": "兒子",
       "pinyin": "érzi",
       "tones": [
         2
@@ -396,7 +396,7 @@
       "ja": "二"
     },
     {
-      "hanzi": "饭",
+      "hanzi": "飯",
       "pinyin": "fàn",
       "tones": [
         4
@@ -404,7 +404,7 @@
       "ja": "ご飯"
     },
     {
-      "hanzi": "饭店",
+      "hanzi": "飯店",
       "pinyin": "fàndiàn",
       "tones": [
         4
@@ -412,7 +412,7 @@
       "ja": "レストラン"
     },
     {
-      "hanzi": "房间",
+      "hanzi": "房間",
       "pinyin": "fángjiān",
       "tones": [
         2
@@ -428,7 +428,7 @@
       "ja": "とても"
     },
     {
-      "hanzi": "飞机",
+      "hanzi": "飛機",
       "pinyin": "fēijī",
       "tones": [
         1
@@ -444,7 +444,7 @@
       "ja": "分"
     },
     {
-      "hanzi": "分钟",
+      "hanzi": "分鐘",
       "pinyin": "fēnzhōng",
       "tones": [
         1
@@ -452,7 +452,7 @@
       "ja": "分"
     },
     {
-      "hanzi": "高兴",
+      "hanzi": "高興",
       "pinyin": "gāoxìng",
       "tones": [
         1
@@ -476,7 +476,7 @@
       "ja": "兄"
     },
     {
-      "hanzi": "个",
+      "hanzi": "個",
       "pinyin": "gè",
       "tones": [
         4
@@ -484,7 +484,7 @@
       "ja": "個"
     },
     {
-      "hanzi": "给",
+      "hanzi": "給",
       "pinyin": "gěi",
       "tones": [
         3
@@ -516,7 +516,7 @@
       "ja": "犬"
     },
     {
-      "hanzi": "贵",
+      "hanzi": "貴",
       "pinyin": "guì",
       "tones": [
         4
@@ -524,7 +524,7 @@
       "ja": "高い"
     },
     {
-      "hanzi": "国",
+      "hanzi": "國",
       "pinyin": "guó",
       "tones": [
         2
@@ -532,7 +532,7 @@
       "ja": "国"
     },
     {
-      "hanzi": "还",
+      "hanzi": "還",
       "pinyin": "hái",
       "tones": [
         2
@@ -548,7 +548,7 @@
       "ja": "子ども"
     },
     {
-      "hanzi": "汉语",
+      "hanzi": "漢語",
       "pinyin": "Hànyǔ",
       "tones": [
         4
@@ -556,7 +556,7 @@
       "ja": "中国語"
     },
     {
-      "hanzi": "汉字",
+      "hanzi": "漢字",
       "pinyin": "Hànzì",
       "tones": [
         4
@@ -588,7 +588,7 @@
       "ja": "見た目がいい"
     },
     {
-      "hanzi": "好听",
+      "hanzi": "好聽",
       "pinyin": "hǎotīng",
       "tones": [
         3
@@ -604,7 +604,7 @@
       "ja": "おもしろい"
     },
     {
-      "hanzi": "号",
+      "hanzi": "號",
       "pinyin": "hào",
       "tones": [
         4
@@ -636,7 +636,7 @@
       "ja": "とても"
     },
     {
-      "hanzi": "后",
+      "hanzi": "後",
       "pinyin": "hòu",
       "tones": [
         4
@@ -652,7 +652,7 @@
       "ja": "戻る、回"
     },
     {
-      "hanzi": "会",
+      "hanzi": "會",
       "pinyin": "huì",
       "tones": [
         4
@@ -660,7 +660,7 @@
       "ja": "できる"
     },
     {
-      "hanzi": "火车",
+      "hanzi": "火車",
       "pinyin": "huǒchē",
       "tones": [
         3
@@ -668,7 +668,7 @@
       "ja": "列車"
     },
     {
-      "hanzi": "鸡蛋",
+      "hanzi": "雞蛋",
       "pinyin": "jīdàn",
       "tones": [
         1
@@ -676,7 +676,7 @@
       "ja": "卵"
     },
     {
-      "hanzi": "几",
+      "hanzi": "幾",
       "pinyin": "jǐ",
       "tones": [
         3
@@ -700,7 +700,7 @@
       "ja": "家族"
     },
     {
-      "hanzi": "见",
+      "hanzi": "見",
       "pinyin": "jiàn",
       "tones": [
         4
@@ -716,7 +716,7 @@
       "ja": "件"
     },
     {
-      "hanzi": "饺子",
+      "hanzi": "餃子",
       "pinyin": "jiǎozi",
       "tones": [
         3
@@ -764,7 +764,7 @@
       "ja": "九"
     },
     {
-      "hanzi": "觉得",
+      "hanzi": "覺得",
       "pinyin": "juéde",
       "tones": [
         2
@@ -772,7 +772,7 @@
       "ja": "〜だと思う"
     },
     {
-      "hanzi": "开",
+      "hanzi": "開",
       "pinyin": "kāi",
       "tones": [
         1
@@ -780,7 +780,7 @@
       "ja": "開ける"
     },
     {
-      "hanzi": "开车",
+      "hanzi": "開車",
       "pinyin": "kāichē",
       "tones": [
         1
@@ -804,7 +804,7 @@
       "ja": "医者に診てもらう"
     },
     {
-      "hanzi": "看见",
+      "hanzi": "看見",
       "pinyin": "kànjiàn",
       "tones": [
         4
@@ -820,7 +820,7 @@
       "ja": "〜してよい"
     },
     {
-      "hanzi": "课",
+      "hanzi": "課",
       "pinyin": "kè",
       "tones": [
         4
@@ -836,7 +836,7 @@
       "ja": "口"
     },
     {
-      "hanzi": "块",
+      "hanzi": "塊",
       "pinyin": "kuài",
       "tones": [
         4
@@ -844,7 +844,7 @@
       "ja": "元、切れ"
     },
     {
-      "hanzi": "来",
+      "hanzi": "來",
       "pinyin": "lái",
       "tones": [
         2
@@ -852,7 +852,7 @@
       "ja": "来る"
     },
     {
-      "hanzi": "老师",
+      "hanzi": "老師",
       "pinyin": "lǎoshī",
       "tones": [
         3
@@ -876,7 +876,7 @@
       "ja": "寒い"
     },
     {
-      "hanzi": "里",
+      "hanzi": "裡",
       "pinyin": "lǐ",
       "tones": [
         3
@@ -884,7 +884,7 @@
       "ja": "中"
     },
     {
-      "hanzi": "两",
+      "hanzi": "兩",
       "pinyin": "liǎng",
       "tones": [
         3
@@ -908,7 +908,7 @@
       "ja": "六"
     },
     {
-      "hanzi": "妈妈",
+      "hanzi": "媽媽",
       "pinyin": "māma",
       "tones": [
         1
@@ -916,7 +916,7 @@
       "ja": "お母さん"
     },
     {
-      "hanzi": "吗",
+      "hanzi": "嗎",
       "pinyin": "ma",
       "tones": [
         0
@@ -924,7 +924,7 @@
       "ja": "〜ですか"
     },
     {
-      "hanzi": "买",
+      "hanzi": "買",
       "pinyin": "mǎi",
       "tones": [
         3
@@ -932,7 +932,7 @@
       "ja": "買う"
     },
     {
-      "hanzi": "卖",
+      "hanzi": "賣",
       "pinyin": "mài",
       "tones": [
         4
@@ -948,7 +948,7 @@
       "ja": "忙しい"
     },
     {
-      "hanzi": "猫",
+      "hanzi": "貓",
       "pinyin": "māo",
       "tones": [
         1
@@ -956,7 +956,7 @@
       "ja": "猫"
     },
     {
-      "hanzi": "没关系",
+      "hanzi": "沒關係",
       "pinyin": "méi guānxi",
       "tones": [
         2,
@@ -965,7 +965,7 @@
       "ja": "大丈夫"
     },
     {
-      "hanzi": "没事",
+      "hanzi": "沒事",
       "pinyin": "méishì",
       "tones": [
         2
@@ -973,7 +973,7 @@
       "ja": "何でもない"
     },
     {
-      "hanzi": "没有",
+      "hanzi": "沒有",
       "pinyin": "méiyǒu",
       "tones": [
         2
@@ -989,7 +989,7 @@
       "ja": "妹"
     },
     {
-      "hanzi": "们",
+      "hanzi": "們",
       "pinyin": "men",
       "tones": [
         0
@@ -997,7 +997,7 @@
       "ja": "〜たち"
     },
     {
-      "hanzi": "米饭",
+      "hanzi": "米飯",
       "pinyin": "mǐfàn",
       "tones": [
         3
@@ -1005,7 +1005,7 @@
       "ja": "ご飯"
     },
     {
-      "hanzi": "面包",
+      "hanzi": "麵包",
       "pinyin": "miànbāo",
       "tones": [
         4
@@ -1013,7 +1013,7 @@
       "ja": "パン"
     },
     {
-      "hanzi": "面条",
+      "hanzi": "麵條",
       "pinyin": "miàntiáo",
       "tones": [
         4
@@ -1053,7 +1053,7 @@
       "ja": "どの"
     },
     {
-      "hanzi": "哪个",
+      "hanzi": "哪個",
       "pinyin": "nǎge",
       "tones": [
         3
@@ -1061,7 +1061,7 @@
       "ja": "どれ"
     },
     {
-      "hanzi": "哪里",
+      "hanzi": "哪裡",
       "pinyin": "nǎlǐ",
       "tones": [
         3
@@ -1069,7 +1069,7 @@
       "ja": "どこ"
     },
     {
-      "hanzi": "哪里",
+      "hanzi": "哪裡",
       "pinyin": "nǎ",
       "tones": [
         3
@@ -1093,7 +1093,7 @@
       "ja": "あの"
     },
     {
-      "hanzi": "那边",
+      "hanzi": "那邊",
       "pinyin": "nàbiān",
       "tones": [
         4
@@ -1101,7 +1101,7 @@
       "ja": "あちら"
     },
     {
-      "hanzi": "那个",
+      "hanzi": "那個",
       "pinyin": "nàge",
       "tones": [
         4
@@ -1109,7 +1109,7 @@
       "ja": "あれ"
     },
     {
-      "hanzi": "那里",
+      "hanzi": "那裡",
       "pinyin": "nàlǐ",
       "tones": [
         4
@@ -1117,7 +1117,7 @@
       "ja": "あそこ"
     },
     {
-      "hanzi": "那里",
+      "hanzi": "那裡",
       "pinyin": "nàlǐ",
       "tones": [
         4
@@ -1182,7 +1182,7 @@
       "ja": "こんにちは"
     },
     {
-      "hanzi": "你们",
+      "hanzi": "你們",
       "pinyin": "nǐmen",
       "tones": [
         3
@@ -1222,7 +1222,7 @@
       "ja": "女"
     },
     {
-      "hanzi": "女儿",
+      "hanzi": "女兒",
       "pinyin": "nǚ’ér",
       "tones": [
         3
@@ -1270,7 +1270,7 @@
       "ja": "きれい"
     },
     {
-      "hanzi": "苹果",
+      "hanzi": "蘋果",
       "pinyin": "píngguǒ",
       "tones": [
         2
@@ -1310,7 +1310,7 @@
       "ja": "前"
     },
     {
-      "hanzi": "钱",
+      "hanzi": "錢",
       "pinyin": "qián",
       "tones": [
         2
@@ -1318,7 +1318,7 @@
       "ja": "お金"
     },
     {
-      "hanzi": "请",
+      "hanzi": "請",
       "pinyin": "qǐng",
       "tones": [
         3
@@ -1326,7 +1326,7 @@
       "ja": "どうぞ"
     },
     {
-      "hanzi": "请问",
+      "hanzi": "請問",
       "pinyin": "qǐngwèn",
       "tones": [
         3
@@ -1350,7 +1350,7 @@
       "ja": "去年"
     },
     {
-      "hanzi": "热",
+      "hanzi": "熱",
       "pinyin": "rè",
       "tones": [
         4
@@ -1366,7 +1366,7 @@
       "ja": "人"
     },
     {
-      "hanzi": "认识",
+      "hanzi": "認識",
       "pinyin": "rènshi",
       "tones": [
         4
@@ -1414,7 +1414,7 @@
       "ja": "出勤する"
     },
     {
-      "hanzi": "上课",
+      "hanzi": "上課",
       "pinyin": "shàngkè",
       "tones": [
         4
@@ -1430,7 +1430,7 @@
       "ja": "午前"
     },
     {
-      "hanzi": "上学",
+      "hanzi": "上學",
       "pinyin": "shàngxué",
       "tones": [
         4
@@ -1446,7 +1446,7 @@
       "ja": "少ない"
     },
     {
-      "hanzi": "谁",
+      "hanzi": "誰",
       "pinyin": "shéi",
       "tones": [
         2
@@ -1454,7 +1454,7 @@
       "ja": "だれ"
     },
     {
-      "hanzi": "什么",
+      "hanzi": "什麼",
       "pinyin": "shénme",
       "tones": [
         2
@@ -1478,7 +1478,7 @@
       "ja": "十"
     },
     {
-      "hanzi": "时候",
+      "hanzi": "時候",
       "pinyin": "shíhou",
       "tones": [
         2
@@ -1486,7 +1486,7 @@
       "ja": "とき"
     },
     {
-      "hanzi": "时间",
+      "hanzi": "時間",
       "pinyin": "shíjiān",
       "tones": [
         2
@@ -1510,7 +1510,7 @@
       "ja": "〜である"
     },
     {
-      "hanzi": "手机",
+      "hanzi": "手機",
       "pinyin": "shǒujī",
       "tones": [
         3
@@ -1518,7 +1518,7 @@
       "ja": "携帯電話"
     },
     {
-      "hanzi": "书",
+      "hanzi": "書",
       "pinyin": "shū",
       "tones": [
         1
@@ -1526,7 +1526,7 @@
       "ja": "本"
     },
     {
-      "hanzi": "书店",
+      "hanzi": "書店",
       "pinyin": "shūdiàn",
       "tones": [
         1
@@ -1558,7 +1558,7 @@
       "ja": "眠る"
     },
     {
-      "hanzi": "睡觉",
+      "hanzi": "睡覺",
       "pinyin": "shuìjiào",
       "tones": [
         4
@@ -1566,7 +1566,7 @@
       "ja": "寝る"
     },
     {
-      "hanzi": "说",
+      "hanzi": "說",
       "pinyin": "shuō",
       "tones": [
         1
@@ -1574,7 +1574,7 @@
       "ja": "言う"
     },
     {
-      "hanzi": "说话",
+      "hanzi": "說話",
       "pinyin": "shuōhuà",
       "tones": [
         1
@@ -1590,7 +1590,7 @@
       "ja": "四"
     },
     {
-      "hanzi": "岁",
+      "hanzi": "歲",
       "pinyin": "suì",
       "tones": [
         4
@@ -1622,7 +1622,7 @@
       "ja": "彼女"
     },
     {
-      "hanzi": "他们",
+      "hanzi": "他們",
       "pinyin": "tāmen",
       "tones": [
         1
@@ -1630,7 +1630,7 @@
       "ja": "彼ら"
     },
     {
-      "hanzi": "它们",
+      "hanzi": "它們",
       "pinyin": "tāmen",
       "tones": [
         1
@@ -1638,7 +1638,7 @@
       "ja": "それら"
     },
     {
-      "hanzi": "她们",
+      "hanzi": "她們",
       "pinyin": "tāmen",
       "tones": [
         1
@@ -1662,7 +1662,7 @@
       "ja": "日、空"
     },
     {
-      "hanzi": "天气",
+      "hanzi": "天氣",
       "pinyin": "tiānqì",
       "tones": [
         1
@@ -1670,7 +1670,7 @@
       "ja": "天気"
     },
     {
-      "hanzi": "听",
+      "hanzi": "聽",
       "pinyin": "tīng",
       "tones": [
         1
@@ -1678,7 +1678,7 @@
       "ja": "聞く"
     },
     {
-      "hanzi": "听见",
+      "hanzi": "聽見",
       "pinyin": "tīngjiàn",
       "tones": [
         1
@@ -1686,7 +1686,7 @@
       "ja": "聞こえる"
     },
     {
-      "hanzi": "同学",
+      "hanzi": "同學",
       "pinyin": "tóngxué",
       "tones": [
         2
@@ -1702,7 +1702,7 @@
       "ja": "外"
     },
     {
-      "hanzi": "外边",
+      "hanzi": "外邊",
       "pinyin": "wàibian",
       "tones": [
         4
@@ -1726,7 +1726,7 @@
       "ja": "遅い"
     },
     {
-      "hanzi": "晚饭",
+      "hanzi": "晚飯",
       "pinyin": "wǎnfàn",
       "tones": [
         3
@@ -1750,7 +1750,7 @@
       "ja": "もしもし"
     },
     {
-      "hanzi": "问",
+      "hanzi": "問",
       "pinyin": "wèn",
       "tones": [
         4
@@ -1758,7 +1758,7 @@
       "ja": "尋ねる"
     },
     {
-      "hanzi": "问题",
+      "hanzi": "問題",
       "pinyin": "wèntí",
       "tones": [
         4
@@ -1774,7 +1774,7 @@
       "ja": "私"
     },
     {
-      "hanzi": "我们",
+      "hanzi": "我們",
       "pinyin": "wǒmen",
       "tones": [
         3
@@ -1790,7 +1790,7 @@
       "ja": "五"
     },
     {
-      "hanzi": "午饭",
+      "hanzi": "午飯",
       "pinyin": "wǔfàn",
       "tones": [
         3
@@ -1798,7 +1798,7 @@
       "ja": "昼食"
     },
     {
-      "hanzi": "喜欢",
+      "hanzi": "喜歡",
       "pinyin": "xǐhuan",
       "tones": [
         3
@@ -1831,7 +1831,7 @@
       "ja": "退勤する"
     },
     {
-      "hanzi": "下课",
+      "hanzi": "下課",
       "pinyin": "xiàkè",
       "tones": [
         4
@@ -1855,7 +1855,7 @@
       "ja": "〜さん"
     },
     {
-      "hanzi": "现在",
+      "hanzi": "現在",
       "pinyin": "xiànzài",
       "tones": [
         4
@@ -1887,7 +1887,7 @@
       "ja": "子ども"
     },
     {
-      "hanzi": "小时",
+      "hanzi": "小時",
       "pinyin": "xiǎoshí",
       "tones": [
         3
@@ -1895,7 +1895,7 @@
       "ja": "時間"
     },
     {
-      "hanzi": "小学",
+      "hanzi": "小學",
       "pinyin": "xiǎoxué",
       "tones": [
         3
@@ -1903,7 +1903,7 @@
       "ja": "小学校"
     },
     {
-      "hanzi": "小学生",
+      "hanzi": "小學生",
       "pinyin": "xiǎoxuéshēng",
       "tones": [
         3
@@ -1919,7 +1919,7 @@
       "ja": "いくつか"
     },
     {
-      "hanzi": "写",
+      "hanzi": "寫",
       "pinyin": "xiě",
       "tones": [
         3
@@ -1927,7 +1927,7 @@
       "ja": "書く"
     },
     {
-      "hanzi": "谢谢",
+      "hanzi": "謝謝",
       "pinyin": "xièxie",
       "tones": [
         4
@@ -1975,7 +1975,7 @@
       "ja": "休む"
     },
     {
-      "hanzi": "学",
+      "hanzi": "學",
       "pinyin": "xué",
       "tones": [
         2
@@ -1983,7 +1983,7 @@
       "ja": "学ぶ"
     },
     {
-      "hanzi": "学生",
+      "hanzi": "學生",
       "pinyin": "xuéshēng",
       "tones": [
         2
@@ -1991,7 +1991,7 @@
       "ja": "学生"
     },
     {
-      "hanzi": "学习",
+      "hanzi": "學習",
       "pinyin": "xuéxí",
       "tones": [
         2
@@ -1999,7 +1999,7 @@
       "ja": "勉強する"
     },
     {
-      "hanzi": "学校",
+      "hanzi": "學校",
       "pinyin": "xuéxiào",
       "tones": [
         2
@@ -2047,7 +2047,7 @@
       "ja": "服"
     },
     {
-      "hanzi": "医生",
+      "hanzi": "醫生",
       "pinyin": "yīshēng",
       "tones": [
         1
@@ -2055,7 +2055,7 @@
       "ja": "医者"
     },
     {
-      "hanzi": "医院",
+      "hanzi": "醫院",
       "pinyin": "yīyuàn",
       "tones": [
         1
@@ -2087,7 +2087,7 @@
       "ja": "いす"
     },
     {
-      "hanzi": "一点",
+      "hanzi": "一點",
       "pinyin": "yìdiǎn",
       "tones": [
         4
@@ -2119,7 +2119,7 @@
       "ja": "ある人は"
     },
     {
-      "hanzi": "有点",
+      "hanzi": "有點",
       "pinyin": "yǒudiǎn",
       "tones": [
         3
@@ -2175,7 +2175,7 @@
       "ja": "〜にいる"
     },
     {
-      "hanzi": "再见",
+      "hanzi": "再見",
       "pinyin": "zàijiàn",
       "tones": [
         4
@@ -2191,7 +2191,7 @@
       "ja": "早い"
     },
     {
-      "hanzi": "早饭",
+      "hanzi": "早飯",
       "pinyin": "zǎofàn",
       "tones": [
         3
@@ -2207,7 +2207,7 @@
       "ja": "朝"
     },
     {
-      "hanzi": "怎么",
+      "hanzi": "怎麼",
       "pinyin": "zěnme",
       "tones": [
         3
@@ -2215,7 +2215,7 @@
       "ja": "どう"
     },
     {
-      "hanzi": "怎么样",
+      "hanzi": "怎麼樣",
       "pinyin": "zěnmeyàng",
       "tones": [
         3
@@ -2231,7 +2231,7 @@
       "ja": "探す"
     },
     {
-      "hanzi": "这",
+      "hanzi": "這",
       "pinyin": "zhè",
       "tones": [
         4
@@ -2239,7 +2239,7 @@
       "ja": "この"
     },
     {
-      "hanzi": "这边",
+      "hanzi": "這邊",
       "pinyin": "zhèbiān",
       "tones": [
         4
@@ -2247,7 +2247,7 @@
       "ja": "こちら"
     },
     {
-      "hanzi": "这个",
+      "hanzi": "這個",
       "pinyin": "zhège",
       "tones": [
         4
@@ -2255,7 +2255,7 @@
       "ja": "これ"
     },
     {
-      "hanzi": "这里",
+      "hanzi": "這裡",
       "pinyin": "zhèlǐ",
       "tones": [
         4
@@ -2263,7 +2263,7 @@
       "ja": "ここ"
     },
     {
-      "hanzi": "这个",
+      "hanzi": "這個",
       "pinyin": "zhège",
       "tones": [
         4
@@ -2271,7 +2271,7 @@
       "ja": "ここ"
     },
     {
-      "hanzi": "这些",
+      "hanzi": "這些",
       "pinyin": "zhèxiē",
       "tones": [
         4
@@ -2311,7 +2311,7 @@
       "ja": "知っている"
     },
     {
-      "hanzi": "中国",
+      "hanzi": "中國",
       "pinyin": "Zhōngguó",
       "tones": [
         1
@@ -2335,7 +2335,7 @@
       "ja": "昼"
     },
     {
-      "hanzi": "中学",
+      "hanzi": "中學",
       "pinyin": "zhōngxué",
       "tones": [
         1
@@ -2343,7 +2343,7 @@
       "ja": "中学校"
     },
     {
-      "hanzi": "中学生",
+      "hanzi": "中學生",
       "pinyin": "zhōngxuéshēng",
       "tones": [
         1
@@ -2399,7 +2399,7 @@
       "ja": "する"
     },
     {
-      "hanzi": "做饭",
+      "hanzi": "做飯",
       "pinyin": "zuò fàn",
       "tones": [
         4,

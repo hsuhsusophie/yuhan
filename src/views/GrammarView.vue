@@ -65,14 +65,16 @@ function step(delta: number) {
       </div>
     </article>
     <div class="choices-row">
-      <button class="btn btn-ghost" type="button" :disabled="index === 0" @click="step(-1)">前の課</button>
+      <button class="btn btn-ghost" type="button" :disabled="index === 0" @click="step(-1)">
+        戻る
+      </button>
       <button
         v-if="index < grammarLessons.length - 1"
         class="btn btn-solid"
         type="button"
         @click="step(1)"
       >
-        つぎの課
+        次
       </button>
       <RouterLink v-else to="/" class="btn btn-solid">ホームへ戻る</RouterLink>
     </div>
