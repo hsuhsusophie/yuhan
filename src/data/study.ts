@@ -2,6 +2,9 @@ import { computed, ref, watch } from 'vue'
 import hsk1 from './hsk1.json'
 import hsk2 from './hsk2.json'
 import hsk3 from './hsk3.json'
+import hsk4 from './hsk4.json'
+import hsk5 from './hsk5.json'
+import hsk6 from './hsk6.json'
 import traditionalHanzi from './hanzi-traditional.json'
 
 export interface Word {
@@ -11,13 +14,16 @@ export interface Word {
   ja: string
 }
 
-export const levelChoices = [1, 2, 3] as const
+export const levelChoices = [1, 2, 3, 4, 5, 6] as const
 export type Level = (typeof levelChoices)[number]
 
 const catalogs: Record<Level, Word[]> = {
   1: hsk1.words as Word[],
   2: hsk2.words as Word[],
   3: hsk3.words as Word[],
+  4: hsk4.words as Word[],
+  5: hsk5.words as Word[],
+  6: hsk6.words as Word[],
 }
 export const attribution = hsk1.attribution
 

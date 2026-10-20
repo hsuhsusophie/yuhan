@@ -1,0 +1,423 @@
+{
+  "attribution": "文法項目は HSK 6 の文法大綱に合わせ、説明と例文はこのアプリ用に書いています。",
+  "lessons": [
+    {
+      "id": "prefix6",
+      "group": "語素",
+      "title": "超—、多—、反—、無—",
+      "pinyin": "",
+      "ja": "程度や反対、ないこと、を語の頭に付けます。",
+      "examples": [
+        {
+          "zh": "超市",
+          "pinyin": "chāoshì",
+          "ja": "スーパー"
+        },
+        {
+          "zh": "無線",
+          "pinyin": "wúxiàn",
+          "ja": "無線"
+        }
+      ]
+    },
+    {
+      "id": "prefix6b",
+      "group": "語素",
+      "title": "亞—、準—",
+      "pinyin": "yà / zhǔn",
+      "ja": "次の段階、もう少しで、です。",
+      "examples": [
+        {
+          "zh": "亞熱帶",
+          "pinyin": "yàrèdài",
+          "ja": "亜熱帯"
+        },
+        {
+          "zh": "準時",
+          "pinyin": "zhǔnshí",
+          "ja": "時間ぴったり"
+        }
+      ]
+    },
+    {
+      "id": "suffix6",
+      "group": "語素",
+      "title": "—化、—式、—型、—性",
+      "pinyin": "",
+      "ja": "変化、方式、型、性質を作ります。",
+      "examples": [
+        {
+          "zh": "現代化",
+          "pinyin": "xiàndàihuà",
+          "ja": "現代化"
+        },
+        {
+          "zh": "可能性",
+          "pinyin": "kěnéngxìng",
+          "ja": "可能性"
+        }
+      ]
+    },
+    {
+      "id": "renjia",
+      "group": "代詞",
+      "title": "人家",
+      "pinyin": "rénjia",
+      "ja": "ほかの人、または自分をかわいく言うときです。",
+      "examples": [
+        {
+          "zh": "人家都走了。",
+          "pinyin": "Rénjia dōu zǒule.",
+          "ja": "みんな行ってしまった。"
+        },
+        {
+          "zh": "別笑人家。",
+          "pinyin": "Bié xiào rénjia.",
+          "ja": "人を笑わないで。"
+        }
+      ]
+    },
+    {
+      "id": "mw6",
+      "group": "量詞",
+      "title": "串、滴、枝、扇、卷、番",
+      "pinyin": "",
+      "ja": "連なり、滴、枝、扉、巻、ひと仕事です。",
+      "examples": [
+        {
+          "zh": "一串葡萄",
+          "pinyin": "yí chuàn pútao",
+          "ja": "ぶどう1房"
+        },
+        {
+          "zh": "一番努力",
+          "pinyin": "yì fān nǔlì",
+          "ja": "ひと苦労"
+        }
+      ]
+    },
+    {
+      "id": "adv6a",
+      "group": "副詞",
+      "title": "特、異常、較為",
+      "pinyin": "",
+      "ja": "とても、異常に、比較的、です。",
+      "examples": [
+        {
+          "zh": "特好看。",
+          "pinyin": "Tè hǎokàn.",
+          "ja": "とてもきれいだ。"
+        },
+        {
+          "zh": "較為簡單。",
+          "pinyin": "Jiàowéi jiǎndān.",
+          "ja": "比較的簡単だ。"
+        }
+      ]
+    },
+    {
+      "id": "adv6b",
+      "group": "副詞",
+      "title": "淨、一同、大都",
+      "pinyin": "",
+      "ja": "〜ばかり、一緒に、ほとんど、です。",
+      "examples": [
+        {
+          "zh": "淨說沒用的。",
+          "pinyin": "Jìng shuō méi yòng de.",
+          "ja": "役に立たないことばかり言う。"
+        },
+        {
+          "zh": "大都同意。",
+          "pinyin": "Dàdū tóngyì.",
+          "ja": "ほとんど賛成だ。"
+        }
+      ]
+    },
+    {
+      "id": "adv6c",
+      "group": "副詞",
+      "title": "一時、不時、仍舊、依舊、一向",
+      "pinyin": "",
+      "ja": "しばらく、時々、相変わらず、いつも、です。",
+      "examples": [
+        {
+          "zh": "不時看看手機。",
+          "pinyin": "Bùshí kànkan shǒujī.",
+          "ja": "時々携帯を見る。"
+        },
+        {
+          "zh": "他一向很準時。",
+          "pinyin": "Tā yíxiàng hěn zhǔnshí.",
+          "ja": "彼はいつも時間に正確だ。"
+        }
+      ]
+    },
+    {
+      "id": "adv6d",
+      "group": "副詞",
+      "title": "一再、再三、不禁、趕忙",
+      "pinyin": "",
+      "ja": "繰り返し、思わず、急いで、です。",
+      "examples": [
+        {
+          "zh": "再三提醒。",
+          "pinyin": "Zàisān tíxǐng.",
+          "ja": "何度も注意する。"
+        },
+        {
+          "zh": "不禁笑了。",
+          "pinyin": "Bùjīn xiàole.",
+          "ja": "思わず笑った。"
+        }
+      ]
+    },
+    {
+      "id": "adv6e",
+      "group": "副詞",
+      "title": "特地、偷偷、未必、恰好",
+      "pinyin": "",
+      "ja": "わざわざ、こっそり、必ずしも〜ない、ちょうど、です。",
+      "examples": [
+        {
+          "zh": "特地來找你。",
+          "pinyin": "Tèdì lái zhǎo nǐ.",
+          "ja": "わざわざ会いに来た。"
+        },
+        {
+          "zh": "未必是真的。",
+          "pinyin": "Wèibì shì zhēn de.",
+          "ja": "本当とは限らない。"
+        }
+      ]
+    },
+    {
+      "id": "adv6f",
+      "group": "副詞",
+      "title": "倒是、乾脆、明明、總算",
+      "pinyin": "",
+      "ja": "かえって、いっそ、明らかに、やっと、です。",
+      "examples": [
+        {
+          "zh": "乾脆別去了。",
+          "pinyin": "Gāncuì bié qù le.",
+          "ja": "いっそ行かない。"
+        },
+        {
+          "zh": "總算做完了。",
+          "pinyin": "Zǒngsuàn zuòwán le.",
+          "ja": "やっと終わった。"
+        }
+      ]
+    },
+    {
+      "id": "prep6",
+      "group": "介詞",
+      "title": "於、至於、因、除",
+      "pinyin": "",
+      "ja": "〜において、〜については、〜のせいで、〜を除いて、です。",
+      "examples": [
+        {
+          "zh": "生於北京。",
+          "pinyin": "Shēng yú Běijīng.",
+          "ja": "北京で生まれた。"
+        },
+        {
+          "zh": "除了茶，還有咖啡。",
+          "pinyin": "Chúle chá, hái yǒu kāfēi.",
+          "ja": "お茶のほかにコーヒーもある。"
+        }
+      ]
+    },
+    {
+      "id": "buliao",
+      "group": "連詞",
+      "title": "不料",
+      "pinyin": "búliào",
+      "ja": "意外な結果を後ろに続けます。",
+      "examples": [
+        {
+          "zh": "想早到，不料堵車了。",
+          "pinyin": "Xiǎng zǎo dào, búliào dǔchē le.",
+          "ja": "早く着くつもりが渋滞した。"
+        },
+        {
+          "zh": "不料他已經走了。",
+          "pinyin": "Búliào tā yǐjīng zǒule.",
+          "ja": "意外にも彼はもう行っていた。"
+        }
+      ]
+    },
+    {
+      "id": "suo",
+      "group": "助詞",
+      "title": "所",
+      "pinyin": "suǒ",
+      "ja": "動詞を名詞のようにします。「的」と一緒に使います。",
+      "examples": [
+        {
+          "zh": "我所說的",
+          "pinyin": "wǒ suǒ shuō de",
+          "ja": "私の言ったこと"
+        },
+        {
+          "zh": "所見所聞",
+          "pinyin": "suǒ jiàn suǒ wén",
+          "ja": "見聞きしたこと"
+        }
+      ]
+    },
+    {
+      "id": "particles6",
+      "group": "助詞",
+      "title": "啦、嘛、也好",
+      "pinyin": "",
+      "ja": "やわらかい語気、当たり前、それでもよい、です。",
+      "examples": [
+        {
+          "zh": "走啦。",
+          "pinyin": "Zǒu la.",
+          "ja": "行くよ。"
+        },
+        {
+          "zh": "喝茶也好。",
+          "pinyin": "Hē chá yě hǎo.",
+          "ja": "お茶でもいい。"
+        }
+      ]
+    },
+    {
+      "id": "pat6",
+      "group": "格式",
+      "title": "A這A那、左A右B",
+      "pinyin": "",
+      "ja": "あれこれ、両方から、です。",
+      "examples": [
+        {
+          "zh": "想這想那。",
+          "pinyin": "Xiǎng zhè xiǎng nà.",
+          "ja": "あれこれ考える。"
+        },
+        {
+          "zh": "左看右看。",
+          "pinyin": "Zuǒ kàn yòu kàn.",
+          "ja": "右を見左を見る。"
+        }
+      ]
+    },
+    {
+      "id": "pat6b",
+      "group": "格式",
+      "title": "好不容易、算了、得了",
+      "pinyin": "",
+      "ja": "やっと、もういい、です。",
+      "examples": [
+        {
+          "zh": "好不容易才找到。",
+          "pinyin": "Hǎo bù róngyì cái zhǎodào.",
+          "ja": "やっと見つけた。"
+        },
+        {
+          "zh": "算了，別說了。",
+          "pinyin": "Suànle, bié shuō le.",
+          "ja": "もういい、言うな。"
+        }
+      ]
+    },
+    {
+      "id": "fmt6",
+      "group": "格式",
+      "title": "到……為止、要麼……要麼",
+      "pinyin": "",
+      "ja": "期限と、どちらか一方です。",
+      "examples": [
+        {
+          "zh": "到星期五為止。",
+          "pinyin": "Dào xīngqīwǔ wéizhǐ.",
+          "ja": "金曜まで。"
+        },
+        {
+          "zh": "要麼喝茶，要麼喝咖啡。",
+          "pinyin": "Yàome hē chá, yàome hē kāfēi.",
+          "ja": "お茶かコーヒーかだ。"
+        }
+      ]
+    },
+    {
+      "id": "clause6",
+      "group": "複句",
+      "title": "雖……但、凡是……都",
+      "pinyin": "",
+      "ja": "逆接と、すべて、です。",
+      "examples": [
+        {
+          "zh": "雖忙，但開心。",
+          "pinyin": "Suī máng, dàn kāixīn.",
+          "ja": "忙しいが楽しい。"
+        },
+        {
+          "zh": "凡是學生都得考。",
+          "pinyin": "Fánshì xuéshēng dōu děi kǎo.",
+          "ja": "学生はみな受験する。"
+        }
+      ]
+    },
+    {
+      "id": "clause6b",
+      "group": "複句",
+      "title": "除非……才／否則、就算……也",
+      "pinyin": "",
+      "ja": "〜して初めて、たとえ〜でも、です。",
+      "examples": [
+        {
+          "zh": "除非你去，否則我不去。",
+          "pinyin": "Chúfēi nǐ qù, fǒuzé wǒ bú qù.",
+          "ja": "あなたが行くのでなければ私は行かない。"
+        },
+        {
+          "zh": "就算難，也要試。",
+          "pinyin": "Jiùsuàn nán, yě yào shì.",
+          "ja": "難しくてもやってみる。"
+        }
+      ]
+    },
+    {
+      "id": "clause6c",
+      "group": "複句",
+      "title": "以便、一時……一時",
+      "pinyin": "",
+      "ja": "〜できるように、そして交互です。",
+      "examples": [
+        {
+          "zh": "早點出發，以便準時到。",
+          "pinyin": "Zǎo diǎn chūfā, yǐbiàn zhǔnshí dào.",
+          "ja": "時間どおり着けるよう早く出る。"
+        },
+        {
+          "zh": "一時冷，一時熱。",
+          "pinyin": "Yìshí lěng, yìshí rè.",
+          "ja": "寒かったり暑かったりする。"
+        }
+      ]
+    },
+    {
+      "id": "xguix",
+      "group": "格式",
+      "title": "X歸X、放著X不Y、好你個X",
+      "pinyin": "",
+      "ja": "認めたうえでの話、使えるものを使わない、驚きです。",
+      "examples": [
+        {
+          "zh": "忙歸忙，飯還是要吃。",
+          "pinyin": "Máng guī máng, fàn háishi yào chī.",
+          "ja": "忙しくても食事はする。"
+        },
+        {
+          "zh": "放著電梯不坐。",
+          "pinyin": "Fàngzhe diàntī bú zuò.",
+          "ja": "エレベーターがあるのに乗らない。"
+        }
+      ]
+    }
+  ]
+}

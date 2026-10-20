@@ -1,0 +1,537 @@
+{
+  "attribution": "文法項目は HSK 5 の文法大綱に合わせ、説明と例文はこのアプリ用に書いています。",
+  "lessons": [
+    {
+      "id": "suffix5",
+      "group": "語素",
+      "title": "—頭",
+      "pinyin": "tou",
+      "ja": "名詞の後ろの「頭」は、物の名前を作ります。軽く読みます。",
+      "examples": [
+        {
+          "zh": "石頭",
+          "pinyin": "shítou",
+          "ja": "石"
+        },
+        {
+          "zh": "木頭",
+          "pinyin": "mùtou",
+          "ja": "木"
+        }
+      ]
+    },
+    {
+      "id": "pron5",
+      "group": "代詞",
+      "title": "彼此、如此、本",
+      "pinyin": "",
+      "ja": "互い、このよう、自分側の、です。",
+      "examples": [
+        {
+          "zh": "彼此瞭解。",
+          "pinyin": "Bǐcǐ liǎojiě.",
+          "ja": "互いを理解する。"
+        },
+        {
+          "zh": "如此簡單。",
+          "pinyin": "Rúcǐ jiǎndān.",
+          "ja": "こんなに簡単だ。"
+        }
+      ]
+    },
+    {
+      "id": "mw5",
+      "group": "量詞",
+      "title": "冊、朵、屆、顆、匹",
+      "pinyin": "",
+      "ja": "本・花・回・粒・馬の助数詞です。",
+      "examples": [
+        {
+          "zh": "一朵花",
+          "pinyin": "yì duǒ huā",
+          "ja": "花1輪"
+        },
+        {
+          "zh": "一屆比賽",
+          "pinyin": "yí jiè bǐsài",
+          "ja": "1回の大会"
+        }
+      ]
+    },
+    {
+      "id": "mw5b",
+      "group": "量詞",
+      "title": "架、群、支、根、批、束",
+      "pinyin": "",
+      "ja": "機械、群れ、細長い物、ひとまとまりです。",
+      "examples": [
+        {
+          "zh": "一架飛機",
+          "pinyin": "yí jià fēijī",
+          "ja": "飛行機1機"
+        },
+        {
+          "zh": "一束花",
+          "pinyin": "yí shù huā",
+          "ja": "花1束"
+        }
+      ]
+    },
+    {
+      "id": "adv5a",
+      "group": "副詞",
+      "title": "過於、相當、格外、極其",
+      "pinyin": "",
+      "ja": "程度が過ぎる、かなり、とりわけ、極めて、です。",
+      "examples": [
+        {
+          "zh": "過於緊張。",
+          "pinyin": "Guòyú jǐnzhāng.",
+          "ja": "緊張しすぎだ。"
+        },
+        {
+          "zh": "格外安靜。",
+          "pinyin": "Géwài ānjìng.",
+          "ja": "とりわけ静かだ。"
+        }
+      ]
+    },
+    {
+      "id": "adv5b",
+      "group": "副詞",
+      "title": "曾經、立刻、始終、即將、漸漸",
+      "pinyin": "",
+      "ja": "過去の経験と、今からの変化です。",
+      "examples": [
+        {
+          "zh": "我曾經去過。",
+          "pinyin": "Wǒ céngjīng qùguo.",
+          "ja": "行ったことがある。"
+        },
+        {
+          "zh": "天漸漸黑了。",
+          "pinyin": "Tiān jiànjiàn hēi le.",
+          "ja": "だんだん暗くなった。"
+        }
+      ]
+    },
+    {
+      "id": "adv5c",
+      "group": "副詞",
+      "title": "老是、通常、儘量、親自",
+      "pinyin": "",
+      "ja": "いつも、ふつう、できるだけ、自分で、です。",
+      "examples": [
+        {
+          "zh": "他老是遲到。",
+          "pinyin": "Tā lǎoshi chídào.",
+          "ja": "いつも遅れる。"
+        },
+        {
+          "zh": "我親自去。",
+          "pinyin": "Wǒ qīnzì qù.",
+          "ja": "自分で行く。"
+        }
+      ]
+    },
+    {
+      "id": "adv5d",
+      "group": "副詞",
+      "title": "便、一旦、似乎、彷彿",
+      "pinyin": "",
+      "ja": "すると、いったん、〜らしい、まるで、です。",
+      "examples": [
+        {
+          "zh": "一見便知道。",
+          "pinyin": "Yí jiàn biàn zhīdào.",
+          "ja": "見ればすぐ分かる。"
+        },
+        {
+          "zh": "似乎要下雨。",
+          "pinyin": "Sìhū yào xiàyǔ.",
+          "ja": "雨が降りそうだ。"
+        }
+      ]
+    },
+    {
+      "id": "adv5e",
+      "group": "副詞",
+      "title": "畢竟、居然、反正、根本",
+      "pinyin": "",
+      "ja": "結局、意外、どうせ、まったく、です。",
+      "examples": [
+        {
+          "zh": "他居然忘了。",
+          "pinyin": "Tā jūrán wàngle.",
+          "ja": "意外にも忘れた。"
+        },
+        {
+          "zh": "我根本不知道。",
+          "pinyin": "Wǒ gēnběn bù zhīdào.",
+          "ja": "まったく知らない。"
+        }
+      ]
+    },
+    {
+      "id": "adv5f",
+      "group": "副詞",
+      "title": "果然、簡直、絕對、的確、反而",
+      "pinyin": "",
+      "ja": "案の定、まったく、絶対、確かに、かえって、です。",
+      "examples": [
+        {
+          "zh": "果然是他。",
+          "pinyin": "Guǒrán shì tā.",
+          "ja": "やっぱり彼だ。"
+        },
+        {
+          "zh": "不但沒好，反而更差。",
+          "pinyin": "Búdàn méi hǎo, fǎn'ér gèng chà.",
+          "ja": "良くならず、かえって悪くなった。"
+        }
+      ]
+    },
+    {
+      "id": "prep5",
+      "group": "介詞",
+      "title": "自從、朝、沿、替、同",
+      "pinyin": "",
+      "ja": "〜から、〜へ、〜に沿って、代わりに、〜と、です。",
+      "examples": [
+        {
+          "zh": "自從去年開始。",
+          "pinyin": "Zìcóng qùnián kāishǐ.",
+          "ja": "去年から始まった。"
+        },
+        {
+          "zh": "替我問一聲。",
+          "pinyin": "Tì wǒ wèn yì shēng.",
+          "ja": "私の代わりに聞いて。"
+        }
+      ]
+    },
+    {
+      "id": "prep5b",
+      "group": "介詞",
+      "title": "憑、據、依據",
+      "pinyin": "",
+      "ja": "よりどころを示します。",
+      "examples": [
+        {
+          "zh": "憑票入場。",
+          "pinyin": "Píng piào rùchǎng.",
+          "ja": "チケットで入場する。"
+        },
+        {
+          "zh": "據說明天放假。",
+          "pinyin": "Jùshuō míngtiān fàngjià.",
+          "ja": "明日は休みらしい。"
+        }
+      ]
+    },
+    {
+      "id": "conj5",
+      "group": "連詞",
+      "title": "以及、從而、可見、假如、總之",
+      "pinyin": "",
+      "ja": "および、その結果、だから分かる、もし、要するに、です。",
+      "examples": [
+        {
+          "zh": "老師以及學生",
+          "pinyin": "lǎoshī yǐjí xuéshēng",
+          "ja": "先生および学生"
+        },
+        {
+          "zh": "總之，先休息。",
+          "pinyin": "Zǒngzhī, xiān xiūxi.",
+          "ja": "とにかく先に休む。"
+        }
+      ]
+    },
+    {
+      "id": "shide",
+      "group": "助詞",
+      "title": "似的",
+      "pinyin": "shìde",
+      "ja": "たとえを名詞や文の後ろに付けます。",
+      "examples": [
+        {
+          "zh": "像雪似的白。",
+          "pinyin": "Xiàng xuě shìde bái.",
+          "ja": "雪のように白い。"
+        },
+        {
+          "zh": "跟飛似的。",
+          "pinyin": "Gēn fēi shìde.",
+          "ja": "飛ぶようだ。"
+        }
+      ]
+    },
+    {
+      "id": "pat5",
+      "group": "格式",
+      "title": "A來A去、A著A著",
+      "pinyin": "",
+      "ja": "行ったり来たり、〜しているうちに、です。",
+      "examples": [
+        {
+          "zh": "走來走去。",
+          "pinyin": "Zǒu lái zǒu qù.",
+          "ja": "行ったり来たりする。"
+        },
+        {
+          "zh": "說著說著就笑了。",
+          "pinyin": "Shuōzhe shuōzhe jiù xiàole.",
+          "ja": "話しているうちに笑った。"
+        }
+      ]
+    },
+    {
+      "id": "pat5b",
+      "group": "格式",
+      "title": "沒A沒B、說A就A、不得了",
+      "pinyin": "",
+      "ja": "どちらもない、すぐやる、大変だ、です。",
+      "examples": [
+        {
+          "zh": "沒完沒了。",
+          "pinyin": "Méi wán méi liǎo.",
+          "ja": "終わりがない。"
+        },
+        {
+          "zh": "高興得不得了。",
+          "pinyin": "Gāoxìng de bùdéliǎo.",
+          "ja": "すごくうれしい。"
+        }
+      ]
+    },
+    {
+      "id": "yilai",
+      "group": "格式",
+      "title": "用不著、以來、由……組成",
+      "pinyin": "",
+      "ja": "必要ない、〜以来、〜から成る、です。",
+      "examples": [
+        {
+          "zh": "用不著擔心。",
+          "pinyin": "Yòngbuzháo dānxīn.",
+          "ja": "心配はいらない。"
+        },
+        {
+          "zh": "由三部分組成。",
+          "pinyin": "Yóu sān bùfen zǔchéng.",
+          "ja": "3つの部分から成る。"
+        }
+      ]
+    },
+    {
+      "id": "fmt5",
+      "group": "格式",
+      "title": "不管怎樣、X什麼X、不X白不X",
+      "pinyin": "",
+      "ja": "何があっても、そしてもったいない、です。",
+      "examples": [
+        {
+          "zh": "不管怎樣，我都去。",
+          "pinyin": "Bùguǎn zěnyàng, wǒ dōu qù.",
+          "ja": "どうでも行く。"
+        },
+        {
+          "zh": "不看白不看。",
+          "pinyin": "Bú kàn bái bú kàn.",
+          "ja": "見ないと損だ。"
+        }
+      ]
+    },
+    {
+      "id": "potential5",
+      "group": "補語",
+      "title": "得、不得",
+      "pinyin": "de / bu de",
+      "ja": "してよいか、してはいけない、です。",
+      "examples": [
+        {
+          "zh": "這菜吃得。",
+          "pinyin": "Zhè cài chīde.",
+          "ja": "この料理は食べてよい。"
+        },
+        {
+          "zh": "熱得吃不得。",
+          "pinyin": "Rè de chību de.",
+          "ja": "熱くて食べられない。"
+        }
+      ]
+    },
+    {
+      "id": "dir5",
+      "group": "補語",
+      "title": "下來、下去、起來、過來、過去",
+      "pinyin": "",
+      "ja": "方向のほか、続きや開始も表します。",
+      "examples": [
+        {
+          "zh": "說下去。",
+          "pinyin": "Shuō xiaqu.",
+          "ja": "話し続けて。"
+        },
+        {
+          "zh": "唱起來。",
+          "pinyin": "Chàng qilai.",
+          "ja": "歌い始める。"
+        }
+      ]
+    },
+    {
+      "id": "youzhe",
+      "group": "特殊",
+      "title": "有著",
+      "pinyin": "yǒuzhe",
+      "ja": "状態として持っている、です。",
+      "examples": [
+        {
+          "zh": "這座城有著很長的歷史。",
+          "pinyin": "Zhè zuò chéng yǒuzhe hěn cháng de lìshǐ.",
+          "ja": "この街には長い歴史がある。"
+        },
+        {
+          "zh": "他有著自己的想法。",
+          "pinyin": "Tā yǒuzhe zìjǐ de xiǎngfǎ.",
+          "ja": "彼には自分の考えがある。"
+        }
+      ]
+    },
+    {
+      "id": "ba5",
+      "group": "特殊文",
+      "title": "把……一＋動詞",
+      "pinyin": "",
+      "ja": "さっと一度やる、です。",
+      "examples": [
+        {
+          "zh": "他把門一關。",
+          "pinyin": "Tā bǎ mén yì guān.",
+          "ja": "彼はドアをぱっと閉めた。"
+        },
+        {
+          "zh": "把杯子一放。",
+          "pinyin": "Bǎ bēizi yí fàng.",
+          "ja": "コップをすっと置いた。"
+        }
+      ]
+    },
+    {
+      "id": "gei5",
+      "group": "特殊文",
+      "title": "被……給",
+      "pinyin": "",
+      "ja": "受け身を「給」で強めます。",
+      "examples": [
+        {
+          "zh": "書被他給拿走了。",
+          "pinyin": "Shū bèi tā gěi názǒu le.",
+          "ja": "本を彼に持っていかれた。"
+        },
+        {
+          "zh": "飯給吃完了。",
+          "pinyin": "Fàn gěi chīwán le.",
+          "ja": "ご飯は食べ尽くされた。"
+        }
+      ]
+    },
+    {
+      "id": "compare5",
+      "group": "比較",
+      "title": "A＋形容詞＋B＋數量",
+      "pinyin": "",
+      "ja": "差の大きさを後ろに足します。",
+      "examples": [
+        {
+          "zh": "他高我一頭。",
+          "pinyin": "Tā gāo wǒ yì tóu.",
+          "ja": "彼は私より頭一つ高い。"
+        },
+        {
+          "zh": "這件便宜十塊。",
+          "pinyin": "Zhè jiàn piányi shí kuài.",
+          "ja": "これは10元安い。"
+        }
+      ]
+    },
+    {
+      "id": "clause5",
+      "group": "複句",
+      "title": "便、或是、一旦、假如、萬一、要不然",
+      "pinyin": "",
+      "ja": "すぐ続くことと、もしもの条件です。",
+      "examples": [
+        {
+          "zh": "一旦開始，就別停。",
+          "pinyin": "Yídàn kāishǐ, jiù bié tíng.",
+          "ja": "始めたら止めない。"
+        },
+        {
+          "zh": "快走，要不然遲到。",
+          "pinyin": "Kuài zǒu, yàoburán chídào.",
+          "ja": "急がないと遅れる。"
+        }
+      ]
+    },
+    {
+      "id": "clause5b",
+      "group": "複句",
+      "title": "因而、可見、哪怕",
+      "pinyin": "",
+      "ja": "だから、見て取れる、たとえ、です。",
+      "examples": [
+        {
+          "zh": "他很努力，因而成功了。",
+          "pinyin": "Tā hěn nǔlì, yīn'ér chénggōng le.",
+          "ja": "努力したので成功した。"
+        },
+        {
+          "zh": "哪怕下雨，也去。",
+          "pinyin": "Nǎpà xiàyǔ, yě qù.",
+          "ja": "雨でも行く。"
+        }
+      ]
+    },
+    {
+      "id": "clause5c",
+      "group": "複句",
+      "title": "不但不……反而、為的是、沒有……就沒有",
+      "pinyin": "",
+      "ja": "逆の結果、目的、前提がないと結果もない、です。",
+      "examples": [
+        {
+          "zh": "他不但不生氣，反而笑了。",
+          "pinyin": "Tā búdàn bù shēngqì, fǎn'ér xiàole.",
+          "ja": "怒らず、かえって笑った。"
+        },
+        {
+          "zh": "沒有水，就沒有生命。",
+          "pinyin": "Méiyǒu shuǐ, jiù méiyǒu shēngmìng.",
+          "ja": "水がなければ生命はない。"
+        }
+      ]
+    },
+    {
+      "id": "clause5d",
+      "group": "複句",
+      "title": "不……不……、再……也",
+      "pinyin": "",
+      "ja": "〜しなければ〜しない、いくら〜でも、です。",
+      "examples": [
+        {
+          "zh": "不見不散。",
+          "pinyin": "Bú jiàn bú sàn.",
+          "ja": "会うまで離れない。"
+        },
+        {
+          "zh": "再難，我也試。",
+          "pinyin": "Zài nán, wǒ yě shì.",
+          "ja": "どんなに難しくてもやる。"
+        }
+      ]
+    }
+  ]
+}
